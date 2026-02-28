@@ -1,0 +1,31 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import ContentSection from '~/components/sections/ContentSection.astro';
+import PageHeader from '~/components/layout/PageHeader.astro';
+import { languages } from '~/i18n/ui';
+import { useTranslations } from '~/i18n/utils';
+import Text from '~/components/ui/Text.astro';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+const t = useTranslations(lang);
+---
+
+<Layout title="About Us - BeHonor Studio" description="Learn about our mission.">
+<PageHeader title={t['about.title']} description={t['about.mission']} />
+
+  <ContentSection
+    title={t['about.story.title']}
+    image="/images/apps/logiccraft_banner.webp"
+    imageAlt="BeHonor Studio Applications"
+  >
+    <Text>{t['about.story.p1']}</Text>
+    <Text>{t['about.story.p2']}</Text>
+    <Text>{t['about.story.p3']}</Text>
+  </ContentSection>
+  
+  <div class="mb-24"></div>
+</Layout>

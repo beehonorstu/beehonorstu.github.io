@@ -1,0 +1,86 @@
+---
+import { languages, defaultLang } from '~/i18n/ui';
+import { useTranslations } from '~/i18n/utils';
+import Layout from '~/layouts/Layout.astro';
+import Schema from '~/components/layout/Schema.astro';
+import Hero from '~/components/sections/Hero.astro';
+import Section from '~/components/layout/Section.astro';
+import BentoGrid from '~/components/sections/BentoGrid.astro';
+import BentoItem from '~/components/ui/BentoItem.astro';
+import { Gamepad2, Wrench, Globe } from 'lucide-react';
+
+export async function getStaticPaths() {
+  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+}
+
+const { lang = defaultLang } = Astro.params;
+const t = useTranslations(lang);
+
+---
+
+<Layout title="BeHonor Studio | Apps & Games" description="BeHonor Studio - Creator of LogicCraft, Flick Wand, and ISS Tracker.">
+    <Schema item={{
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "BeHonor Studio",
+            "url": Astro.site,
+            "logo": "https://play-lh.googleusercontent.com/MRSqPcyaLlYxqN45WQKg_ySHOeXimarn4vt3CyGJ2s5TL39PutxRPn_ypA4daars8DE=w512"
+        }} />
+	
+    <Hero 
+        title="Welcome to"
+        highlight="BeHonor Studio"
+        description="Building high-quality applications that bring fun, focus, and discovery to your everyday life."
+        primaryCta={{ text: "View Our Apps on Google Play", href: "https://play.google.com/store/apps/developer?id=BeHonor+Studio" }}
+    />
+    
+    <Section 
+        class="py-0 overflow-visible mb-24"
+        id="apps" 
+    >
+        <BentoGrid title="Featured Apps">
+            <!-- Large Item: ISS Tracker -->
+            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" onclick="window.location.href='/en/products/isstracker'">
+                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10 transition-opacity"></div>
+                <img src="/images/apps/isstracker_banner.webp" alt="ISS Tracker" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
+                
+                <div class="relative z-20 h-full flex flex-col justify-end">
+                    <div class="flex items-center gap-4 mb-4">
+                        <img src="/images/apps/isstracker_icon.webp" alt="ISS Tracker Icon" class="w-16 h-16 rounded-xl shadow-lg border border-white/10" />
+                        <h3 class="text-3xl font-bold text-white">ISS Tracker</h3>
+                    </div>
+                    <p class="text-white/80 text-lg max-w-xl">Track the International Space Station in real-time. Know exactly when it passes overhead.</p>
+                </div>
+            </BentoItem>
+
+            <!-- Medium Item: LogicCraft -->
+            <BentoItem class="group cursor-pointer min-h-[300px]" onclick="window.location.href='/en/products/logiccraft'">
+                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                <img src="/images/apps/logiccraft_banner.webp" alt="LogicCraft" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
+                
+                <div class="relative z-20 h-full flex flex-col justify-end">
+                    <div class="flex items-center gap-3 mb-2">
+                        <img src="/images/apps/logiccraft_icon.webp" alt="LogicCraft Icon" class="w-12 h-12 rounded-xl shadow-lg" />
+                        <h3 class="text-xl font-bold text-white">LogicCraft</h3>
+                    </div>
+                    <p class="text-white/80 text-sm">Challenge your brain with endless logical puzzles. Connect, solve, and master intricately designed levels that will put your intellect to the test.</p>
+                </div>
+            </BentoItem>
+
+            <!-- Medium Item: Flick Wand -->
+            <BentoItem class="group cursor-pointer min-h-[300px]" onclick="window.location.href='/en/products/flickwand'">
+                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                <img src="/images/apps/flickwand_banner.webp" alt="Flick Wand" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
+                
+                <div class="relative z-20 h-full flex flex-col justify-end">
+                    <div class="flex items-center gap-3 mb-2">
+                        <img src="/images/apps/flickwand_icon.webp" alt="Flick Wand Icon" class="w-12 h-12 rounded-xl shadow-lg" />
+                        <h3 class="text-xl font-bold text-white">Flick Wand</h3>
+                    </div>
+                    <p class="text-white/80 text-sm">Automate and launch actions instantly with intuitive gestures. Your daily tasks made highly efficient.</p>
+                </div>
+            </BentoItem>
+
+        </BentoGrid>
+    </Section>
+</Layout>
