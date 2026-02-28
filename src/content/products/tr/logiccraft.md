@@ -5,7 +5,7 @@ pubDate: 2024-05-15
 tags: ["Puzzle", "Games"]
 heroImage: /images/apps/logiccraft_banner.webp
 client: BeHonor Studio
-role: Puzzle Game
+role: Bulmaca Oyunu
 services: [Game Design, Logic Puzzles, Mobile App]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
@@ -14,24 +14,24 @@ isFeatured: true
 
 **LogicCraft** — Beyninizi eğitmek için minimalist tasarımlı temiz ve hızlı bir bulmaca koleksiyonu.
 
-Challenge your mind with this sleek collection of beloved puzzle games, beautifully redesigned with a clean, minimalist aesthetic. LogicCraft brings together classic games in one lightweight package.
+Temiz, minimalist bir estetikle güzelce yeniden tasarlanmış bu şık bulmaca oyunları koleksiyonuyla zihninize meydan okuyun. LogicCraft, klasik oyunları hafif bir pakette bir araya getiriyor.
 
-## Featured Games
+## Öne Çıkan Oyunlar
 
-- **Wordle** — Test your vocabulary skills by guessing the hidden word in 6 tries.
-- **Word Search** — Exercise your focus and attention to detail by finding hidden words in a grid.
-- **Minesweeper** — A classic game of logic and deduction — clear the field without triggering any mines.
-- **2048** — Join the numbers strategically to reach 2048 and beyond.
+- **Wordle** — Gizli kelimeyi 6 denemede tahmin ederek kelime dağarcığınızı test edin.
+- **Kelime Arama** — Bir ızgaradaki gizli kelimeleri bularak odaklanma ve ayrıntılara dikkatinizi geliştirin.
+- **Mayın Tarlası** — Klasik bir mantık ve tümdengelim oyunu - hiçbir mayını tetiklemeden alanı temizleyin.
+- **2048** — Rakamları stratejik olarak birleştirip 2048 ve ötesine ulaşın.
 
-## Key Features
+## Temel Özellikler
 
-- ✓ Clean, modern interface with intuitive controls
-- ✓ Lightweight app size — takes minimal storage space
-- ✓ Smooth, responsive performance
-- ✓ Elegant minimalist design
-- ✓ Perfect for quick gaming sessions
-- ✓ Offline play — no internet required
+- ✓ Sezgisel kontrollere sahip temiz, modern arayüz
+- ✓ Hafif uygulama boyutu — minimum depolama alanı kaplar
+- ✓ Akıcı, duyarlı performans
+- ✓ Zarif minimalist tasarım
+- ✓ Hızlı oyun seansları için mükemmel
+- ✓ Çevrimdışı oynanış — internet gerekmez
 
-Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
+İster kahvenizi beklerken, ister işe gidip gelirken, isterseniz de sadece hızlı bir zihinsel meydan okumaya ihtiyacınız olsun, LogicCraft gündelik eğlence ve beyin eğitiminin mükemmel karışımını sunar.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

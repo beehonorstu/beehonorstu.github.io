@@ -5,7 +5,7 @@ pubDate: 2024-08-22
 tags: ["Utility", "Productivity"]
 heroImage: /images/apps/flickwand_banner.webp
 client: BeHonor Studio
-role: Utility App
+role: Aplicación de utilidad
 services: [Automation, Gesture Control, Android]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
@@ -14,27 +14,27 @@ isFeatured: true
 
 ✨ **GestoMágico** — Libera la Magia de tus Gestos
 
-GestoMágico reimagines how you interact with your phone. Instead of ordinary taps and swipes, control your device with unique hand gestures, bringing a touch of magic to every interaction.
+GestoMágico reimagina cómo interactúas con tu teléfono. En lugar de toques y deslizamientos ordinarios, controla tu dispositivo con gestos únicos, aportando un toque de magia a cada interacción.
 
-## 🪄 Key Features
+## 🪄 Características principales
 
-- **Draw your gesture to awaken apps** 📱
-- **Conjure websites with a flick** 🌐
-- **Dial a call effortlessly** 📞
-- **Chat with your friends instantly** 💬
+- **Dibuja tu gesto para despertar aplicaciones** 📱
+- **Invoca sitios web con un toque** 🌐
+- **Llama sin esfuerzo** 📞
+- **Chatea con tus amigos al instante** 💬
 
-## 🎩 Why GestoMágico?
+## 🎩 ¿Por qué GestoMágico?
 
-- **Personalized Magic** — Create custom gestures for actions that matter most to you.
-- **Intuitive and Time-Saving** — Just flick your finger, and watch it happen instantly.
-- **Whimsical Fun** — You're the wizard, and your phone obeys your spells.
+- **Magia personalizada** — Crea gestos personalizados para las acciones que más te importan.
+- **Intuitivo y ahorra tiempo** — Solo mueve tu dedo y mira cómo sucede al instante.
+- **Diversión mágica** — Tú eres el mago y tu teléfono obedece tus hechizos.
 
-## 🪄 How it Works
+## 🪄 Cómo funciona
 
-1. Define your magic gestures
-2. Assign them to tasks
-3. Cast your spells anytime!
+1. Define tus gestos mágicos
+2. Asígnalos a tareas
+3. ¡Lanza tus hechizos cuando quieras!
 
-🔒 **Privacy First** — Your gestures are stored locally and your privacy is always protected.
+🔒 **Privacidad primero** — Tus gestos se almacenan localmente y tu privacidad siempre está protegida.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

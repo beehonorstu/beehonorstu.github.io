@@ -5,7 +5,7 @@ pubDate: 2024-11-04
 tags: ["Space", "Tracking"]
 heroImage: /images/apps/isstracker_banner.webp
 client: BeHonor Studio
-role: Space Tracking App
+role: Application de Suivi Spatial
 services: [Real-time Tracking, Space, Live Video]
 website: https://play.google.com/store/apps/details?id=com.behonor.iss_tracker
 link: https://play.google.com/store/apps/details?id=com.behonor.iss_tracker
@@ -14,15 +14,15 @@ isFeatured: true
 
 🛰️ **ISS Tracker** — Suivez l'ISS en temps réel, obtenez des prédictions de passage précises et regardez la vidéo en direct.
 
-ISS Tracker is an Android application for tracking the International Space Station (ISS) in real time.
+ISS Tracker est une application Android permettant de suivre la Station Spatiale Internationale (ISS) en temps réel.
 
-## Core Features
+## Fonctionnalités Principales
 
-- 🗺️ **Real-time orbital tracking** — Interactive map displaying the current location and orbit of the ISS.
-- 📊 **Visible pass predictions** — Calculated based on your local time, elevation, and eclipse conditions.
-- 📺 **Live HD video streams** — Watch cameras aboard the ISS in real time.
-- 📡 **Real-time telemetry data** — Altitude, speed, latitude, and longitude at your fingertips.
+- 🗺️ **Suivi orbital en temps réel** — Carte interactive affichant l'emplacement et l'orbite actuels de l'ISS.
+- 📊 **Prédictions de passage visibles** — Calculées en fonction de votre heure locale, de l'élévation et des conditions d'éclipse.
+- 📺 **Flux vidéo HD en direct** — Regardez les caméras à bord de l'ISS en temps réel.
+- 📡 **Données de télémétrie en temps réel** — Altitude, vitesse, latitude et longitude à portée de main.
 
-Hope you enjoy exploring space with ISS Tracker!
+Nous espérons que vous apprécierez l'exploration de l'espace avec ISS Tracker !
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

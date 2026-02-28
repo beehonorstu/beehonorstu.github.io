@@ -5,7 +5,7 @@ pubDate: 2024-08-22
 tags: ["Utility", "Productivity"]
 heroImage: /images/apps/flickwand_banner.webp
 client: BeHonor Studio
-role: Utility App
+role: Araç Uygulaması
 services: [Automation, Gesture Control, Android]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
@@ -14,27 +14,27 @@ isFeatured: true
 
 ✨ **SihirliJest** — Hareketlerinde Gizli Sihri Keşfet
 
-SihirliJest reimagines how you interact with your phone. Instead of ordinary taps and swipes, control your device with unique hand gestures, bringing a touch of magic to every interaction.
+SihirliJest, telefonunuzla etkileşim biçiminizi yeniden hayal ediyor. Sıradan dokunuşlar ve kaydırmalar yerine, cihazınızı benzersiz el hareketleriyle kontrol ederek her etkileşime sihirli bir dokunuş katın.
 
-## 🪄 Key Features
+## 🪄 Temel Özellikler
 
-- **Draw your gesture to awaken apps** 📱
-- **Conjure websites with a flick** 🌐
-- **Dial a call effortlessly** 📞
-- **Chat with your friends instantly** 💬
+- **Uygulamaları uyandırmak için jestinizi çizin** 📱
+- **Bir hareketle web sitelerini çağırın** 🌐
+- **Zahmetsizce arama yapın** 📞
+- **Arkadaşlarınızla anında sohbet edin** 💬
 
-## 🎩 Why SihirliJest?
+## 🎩 Neden SihirliJest?
 
-- **Personalized Magic** — Create custom gestures for actions that matter most to you.
-- **Intuitive and Time-Saving** — Just flick your finger, and watch it happen instantly.
-- **Whimsical Fun** — You're the wizard, and your phone obeys your spells.
+- **Kişiselleştirilmiş Sihir** — Sizin için en önemli eylemler için özel jestler oluşturun.
+- **Sezgisel ve Zaman Kazandıran** — Sadece parmağınızı hareket ettirin ve anında gerçekleşmesini izleyin.
+- **Büyülü Eğlence** — Siz bir büyücüsünüz ve telefonunuz büyülerine itaat ediyor.
 
-## 🪄 How it Works
+## 🪄 Nasıl Çalışır
 
-1. Define your magic gestures
-2. Assign them to tasks
-3. Cast your spells anytime!
+1. Sihirli jestlerinizi tanımlayın
+2. Onları görevlere atayın
+3. Büyülerinizi istediğiniz zaman yapın!
 
-🔒 **Privacy First** — Your gestures are stored locally and your privacy is always protected.
+🔒 **Önce Gizlilik** — Jestleriniz yerel olarak saklanır ve gizliliğiniz her zaman korunur.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

@@ -5,7 +5,7 @@ pubDate: 2024-08-22
 tags: ["Utility", "Productivity"]
 heroImage: /images/apps/flickwand_banner.webp
 client: BeHonor Studio
-role: Utility App
+role: Aplikasi Utilitas
 services: [Automation, Gesture Control, Android]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx
@@ -14,27 +14,27 @@ isFeatured: true
 
 ✨ **GerakAjaib** — Lepaskan Sihir Gerakanmu
 
-GerakAjaib reimagines how you interact with your phone. Instead of ordinary taps and swipes, control your device with unique hand gestures, bringing a touch of magic to every interaction.
+GerakAjaib membayangkan kembali cara Anda berinteraksi dengan ponsel. Alih-alih ketukan dan usapan biasa, kendalikan perangkat Anda dengan gerakan tangan yang unik, membawa sentuhan keajaiban di setiap interaksi.
 
-## 🪄 Key Features
+## 🪄 Fitur Utama
 
-- **Draw your gesture to awaken apps** 📱
-- **Conjure websites with a flick** 🌐
-- **Dial a call effortlessly** 📞
-- **Chat with your friends instantly** 💬
+- **Gambar gerakan Anda untuk membangunkan aplikasi** 📱
+- **Panggil situs web dengan satu jentikan** 🌐
+- **Panggil telepon dengan mudah** 📞
+- **Mengobrol dengan teman-teman Anda secara instan** 💬
 
-## 🎩 Why GerakAjaib?
+## 🎩 Mengapa GerakAjaib?
 
-- **Personalized Magic** — Create custom gestures for actions that matter most to you.
-- **Intuitive and Time-Saving** — Just flick your finger, and watch it happen instantly.
-- **Whimsical Fun** — You're the wizard, and your phone obeys your spells.
+- **Keajaiban Pribadi** — Buat gerakan khusus untuk tindakan yang paling penting bagi Anda.
+- **Intuitif dan Menghemat Waktu** — Cukup jentikkan jari Anda, dan saksikan hal itu terjadi secara instan.
+- **Kesenangan yang Ajaib** — Anda adalah penyihir, dan ponsel Anda mematuhi mantra Anda.
 
-## 🪄 How it Works
+## 🪄 Cara Kerjanya
 
-1. Define your magic gestures
-2. Assign them to tasks
-3. Cast your spells anytime!
+1. Tentukan gerakan magis Anda
+2. Tetapkan ke tugas
+3. Ucapkan mantra Anda kapan saja!
 
-🔒 **Privacy First** — Your gestures are stored locally and your privacy is always protected.
+🔒 **Privasi yang Utama** — Gerakan Anda disimpan secara lokal dan privasi Anda selalu terlindungi.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

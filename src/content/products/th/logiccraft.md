@@ -5,7 +5,7 @@ pubDate: 2024-05-15
 tags: ["Puzzle", "Games"]
 heroImage: /images/apps/logiccraft_banner.webp
 client: BeHonor Studio
-role: Puzzle Game
+role: เกมปริศนา
 services: [Game Design, Logic Puzzles, Mobile App]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
@@ -14,24 +14,24 @@ isFeatured: true
 
 **LogicCraft** — คอลเลกชันพัซเซิลที่สะอาดและรวดเร็ว ดีไซน์มินิมอล ฝึกสมองของคุณ
 
-Challenge your mind with this sleek collection of beloved puzzle games, beautifully redesigned with a clean, minimalist aesthetic. LogicCraft brings together classic games in one lightweight package.
+ท้าทายสมองของคุณด้วยคอลเลกชันเกมพัซเซิลสุดฮิตที่ได้รับการออกแบบใหม่ในสไตล์มินิมอลและดูสะอาดตา LogicCraft ได้รวบรวมเกมคลาสสิกมาไว้ในแอปเดียวที่มีขนาดเล็ก
 
-## Featured Games
+## เกมที่โดดเด่น
 
-- **Wordle** — Test your vocabulary skills by guessing the hidden word in 6 tries.
-- **Word Search** — Exercise your focus and attention to detail by finding hidden words in a grid.
-- **Minesweeper** — A classic game of logic and deduction — clear the field without triggering any mines.
-- **2048** — Join the numbers strategically to reach 2048 and beyond.
+- **Wordle** — ทดสอบคำศัพท์ของคุณด้วยการเดาคำที่ซ่อนอยู่ภายใน 6 ครั้ง
+- **Word Search** — ฝึกสมาธิและความใส่ใจในรายละเอียดด้วยการหาคำที่ซ่อนอยู่ในตาราง
+- **Minesweeper** — เกมตรรกะและการเรียงคลาสสิก — เคลียร์พื้นที่โดยไม่ให้โดนระเบิด
+- **2048** — รวมตัวเลขอย่างมีกลยุทธ์เพื่อให้ได้ถึง 2048 และมากกว่านั้น
 
-## Key Features
+## คุณสมบัติหลัก
 
-- ✓ Clean, modern interface with intuitive controls
-- ✓ Lightweight app size — takes minimal storage space
-- ✓ Smooth, responsive performance
-- ✓ Elegant minimalist design
-- ✓ Perfect for quick gaming sessions
-- ✓ Offline play — no internet required
+- ✓ อินเทอร์เฟซที่ทันสมัยและสะอาดตาพร้อมการควบคุมที่ใช้งานง่าย
+- ✓ ขนาดแอปที่เล็กและเบา — ใช้พื้นที่เก็บข้อมูลน้อยที่สุด
+- ✓ ประสิทธิภาพการทำงานที่ลื่นไหลและตอบสนองเร็ว
+- ✓ การออกแบบแนวมินิมอลที่หรูหรา
+- ✓ เหมาะสมที่สุดสำหรับการเล่นเกมสั้นๆ
+- ✓ การเล่นออฟไลน์ — ไม่ต้องใช้อินเทอร์เน็ต
 
-Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
+ไม่ว่าคุณจะรอคอยกาแฟ เดินทาง หรือเพียงต้องการท้าทายความคิดแบบเร็วๆ LogicCraft มอบการผสมผสานที่สมบูรณ์แบบของความบันเทิงแบบสบายๆ และการฝึกสมอง
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

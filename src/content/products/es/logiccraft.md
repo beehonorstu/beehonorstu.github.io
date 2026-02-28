@@ -5,7 +5,7 @@ pubDate: 2024-05-15
 tags: ["Puzzle", "Games"]
 heroImage: /images/apps/logiccraft_banner.webp
 client: BeHonor Studio
-role: Puzzle Game
+role: Juego de rompecabezas
 services: [Game Design, Logic Puzzles, Mobile App]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
@@ -14,24 +14,24 @@ isFeatured: true
 
 **LogicCraft** — Una colección de puzzles limpia y rápida con diseño minimalista para entrenar tu cerebro.
 
-Challenge your mind with this sleek collection of beloved puzzle games, beautifully redesigned with a clean, minimalist aesthetic. LogicCraft brings together classic games in one lightweight package.
+Desafía tu mente con esta elegante colección de juegos de rompecabezas clásicos, bellamente rediseñados con una estética limpia y minimalista. LogicCraft reúne juegos clásicos en un paquete liviano.
 
-## Featured Games
+## Juegos Destacados
 
-- **Wordle** — Test your vocabulary skills by guessing the hidden word in 6 tries.
-- **Word Search** — Exercise your focus and attention to detail by finding hidden words in a grid.
-- **Minesweeper** — A classic game of logic and deduction — clear the field without triggering any mines.
-- **2048** — Join the numbers strategically to reach 2048 and beyond.
+- **Wordle** — Pon a prueba tu vocabulario adivinando la palabra oculta en 6 intentos.
+- **Sopa de Letras** — Ejercita tu concentración y atención al detalle encontrando palabras ocultas en la cuadrícula.
+- **Buscaminas** — Un juego clásico de lógica y deducción: despeja el campo sin activar ninguna mina.
+- **2048** — Une los números de forma estratégica para alcanzar llegar a 2048 y más allá.
 
-## Key Features
+## Características Principales
 
-- ✓ Clean, modern interface with intuitive controls
-- ✓ Lightweight app size — takes minimal storage space
-- ✓ Smooth, responsive performance
-- ✓ Elegant minimalist design
-- ✓ Perfect for quick gaming sessions
-- ✓ Offline play — no internet required
+- ✓ Interfaz limpia y moderna con controles intuitivos
+- ✓ Tamaño de aplicación liviano: ocupa un espacio de almacenamiento mínimo
+- ✓ Rendimiento suave y receptivo
+- ✓ Elegante diseño minimalista
+- ✓ Perfecto para sesiones de juego rápidas
+- ✓ Juego sin conexión: no requiere Internet
 
-Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
+Ya sea que estés esperando tu café, viajando, o simplemente necesites un desafío mental rápido, LogicCraft te ofrece la combinación perfecta de entretenimiento casual y entrenamiento cerebral.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)
