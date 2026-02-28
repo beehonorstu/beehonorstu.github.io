@@ -1,6 +1,6 @@
 ---
-title: LogicCraft
-description: Challenge your brain with endless logical puzzles. Connect, solve, and master intricately designed levels that will put your intellect to the test.
+title: "LogicCraft"
+description: "Czysta, szybka kolekcja łamigłówek z minimalistycznym designem do treningu mózgu."
 pubDate: 2024-05-15
 tags: ["Puzzle", "Games"]
 heroImage: /images/apps/logiccraft_banner.webp
@@ -12,23 +12,26 @@ link: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 isFeatured: true
 ---
 
-## Overview
+**LogicCraft** — Czysta, szybka kolekcja łamigłówek z minimalistycznym designem do treningu mózgu.
 
-**LogicCraft** is the ultimate destination for puzzle lovers. Designed carefully to push your deductive reasoning to its limits, the game offers hundreds of progressively difficult stages. Whether you have 5 minutes to spare on a commute or an hour to dive deep into complex logic, this game has the perfect puzzle for you.
+Challenge your mind with this sleek collection of beloved puzzle games, beautifully redesigned with a clean, minimalist aesthetic. LogicCraft brings together classic games in one lightweight package.
 
-## Features
+## Featured Games
 
-- **Progressive Difficulty**: Starts with simple tutorials and scales into mind-bending grid puzzles.
-- **Daily Challenges**: Fresh new puzzles every day to keep your brain active.
-- **Clean UI**: A distraction-free, minimalist design focusing entirely on the puzzle mechanics.
-- **Hint System**: Get subtle nudges in the right direction without spoiling the answer.
+- **Wordle** — Test your vocabulary skills by guessing the hidden word in 6 tries.
+- **Word Search** — Exercise your focus and attention to detail by finding hidden words in a grid.
+- **Minesweeper** — A classic game of logic and deduction — clear the field without triggering any mines.
+- **2048** — Join the numbers strategically to reach 2048 and beyond.
 
-## The Challenge
+## Key Features
 
-Building a logic game requires a delicate balance between difficulty and frustration. The primary challenge was generating levels that were mathematically sound (having a single unique solution) while still being solvable by a human using logical deduction, rather than straight guesswork. 
+- ✓ Clean, modern interface with intuitive controls
+- ✓ Lightweight app size — takes minimal storage space
+- ✓ Smooth, responsive performance
+- ✓ Elegant minimalist design
+- ✓ Perfect for quick gaming sessions
+- ✓ Offline play — no internet required
 
-## The Solution
+Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
 
-We developed a custom puzzle generator algorithm that not only creates the grids but actively attempts to solve them using human-like strategies to ensure the difficulty curve feels natural and rewarding.
-
-[Download LogicCraft on Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)
+[Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

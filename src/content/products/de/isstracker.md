@@ -1,34 +1,28 @@
 ---
-title: ISS Tracker
-description: Verfolgen Sie die Internationale Raumstation in Echtzeit. Erfahren Sie genau, wann sie über Sie hinwegfliegt und wer sich derzeit an Bord befindet.
+title: "ISS Tracker"
+description: "Verfolgen Sie die ISS in Echtzeit, erhalten Sie präzise Überflugvorhersagen und schauen Sie Live-Video."
 pubDate: 2024-11-04
-tags: ["Bildung", "Tracker"]
+tags: ["Space", "Tracking"]
 heroImage: /images/apps/isstracker_banner.webp
 client: BeHonor Studio
-role: Bildungs-Tracker
-services: [Standortverfolgung, Echtzeit-APIs, Android]
+role: Space Tracking App
+services: [Real-time Tracking, Space, Live Video]
 website: https://play.google.com/store/apps/details?id=com.behonor.iss_tracker
 link: https://play.google.com/store/apps/details?id=com.behonor.iss_tracker
 isFeatured: true
 ---
 
-## Überblick
+🛰️ **ISS Tracker** — Verfolgen Sie die ISS in Echtzeit, erhalten Sie präzise Überflugvorhersagen und schauen Sie Live-Video.
 
-**ISS Tracker** bringt die Wunder der erdnahen Umlaufbahn direkt in Ihre Tasche. Entwickelt für Studenten, Astronomen und Weltraumenthusiasten, liefert die App die exakte Position, Geschwindigkeit und Höhe der Internationalen Raumstation in Echtzeit.
+ISS Tracker is an Android application for tracking the International Space Station (ISS) in real time.
 
-## Funktionen
+## Core Features
 
-- **Echtzeit-Karte**: Verfolgen Sie die ISS auf einer detaillierten, interaktiven Erdkarte.
-- **Überflug-Benachrichtigungen**: Lassen Sie sich benachrichtigen, wenn die Station von Ihrem Standort aus sichtbar ist.
-- **Besatzungsinformationen**: Sehen Sie, wer sich gerade im Weltraum befindet, ihre Rollen und wie lange sie schon im All sind.
-- **Elegante Oberfläche**: Ein dunkles Weltraum-Design, das sich wie ein Kontrollzentrum anfühlt.
+- 🗺️ **Real-time orbital tracking** — Interactive map displaying the current location and orbit of the ISS.
+- 📊 **Visible pass predictions** — Calculated based on your local time, elevation, and eclipse conditions.
+- 📺 **Live HD video streams** — Watch cameras aboard the ISS in real time.
+- 📡 **Real-time telemetry data** — Altitude, speed, latitude, and longitude at your fingertips.
 
-## Die Herausforderung
+Hope you enjoy exploring space with ISS Tracker!
 
-Die Berechnung präziser Orbitalmechanik auf einem Mobilgerät bei gleichzeitiger Minimierung der API-Aufrufe zum Schutz der Batterie war eine große Herausforderung.
-
-## Die Lösung
-
-Wir haben eine leichtgewichtige Caching-Schicht entwickelt, die die Position der Station lokal zwischen API-Updates interpoliert und so ein flüssiges Tracking ohne übermäßige Serveranfragen ermöglicht.
-
-[ISS Tracker auf Google Play herunterladen](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+[Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

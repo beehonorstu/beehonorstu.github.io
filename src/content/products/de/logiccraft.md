@@ -1,34 +1,37 @@
 ---
-title: LogicCraft
-description: Fordern Sie Ihr Gehirn mit endlosen Logikrätseln heraus. Verbinden, lösen und meistern Sie sorgfältig gestaltete Level, die Ihren Intellekt auf die Probe stellen.
+title: "LogicCraft"
+description: "Eine saubere, schnelle Puzzle-Sammlung mit minimalistischem Design für Ihr Gehirntraining."
 pubDate: 2024-05-15
-tags: ["Puzzle", "Spiele"]
+tags: ["Puzzle", "Games"]
 heroImage: /images/apps/logiccraft_banner.webp
 client: BeHonor Studio
-role: Puzzlespiel
-services: [Spieldesign, Logikrätsel, Mobile App]
+role: Puzzle Game
+services: [Game Design, Logic Puzzles, Mobile App]
 website: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 link: https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft
 isFeatured: true
 ---
 
-## Überblick
+**LogicCraft** — Eine saubere, schnelle Puzzle-Sammlung mit minimalistischem Design für Ihr Gehirntraining.
 
-**LogicCraft** ist das ultimative Ziel für Puzzle-Liebhaber. Sorgfältig konzipiert, um Ihr deduktives Denken an seine Grenzen zu bringen, bietet das Spiel Hunderte von progressiv schwierigeren Leveln.
+Challenge your mind with this sleek collection of beloved puzzle games, beautifully redesigned with a clean, minimalist aesthetic. LogicCraft brings together classic games in one lightweight package.
 
-## Funktionen
+## Featured Games
 
-- **Progressive Schwierigkeit**: Von einfachen Tutorials bis hin zu kniffligen Gitterrätseln.
-- **Tägliche Herausforderungen**: Jeden Tag frische neue Rätsel, um Ihr Gehirn aktiv zu halten.
-- **Klare Oberfläche**: Ein ablenkungsfreies, minimalistisches Design, das sich ganz auf die Spielmechanik konzentriert.
-- **Hinweissystem**: Dezente Tipps in die richtige Richtung, ohne die Antwort zu verraten.
+- **Wordle** — Test your vocabulary skills by guessing the hidden word in 6 tries.
+- **Word Search** — Exercise your focus and attention to detail by finding hidden words in a grid.
+- **Minesweeper** — A classic game of logic and deduction — clear the field without triggering any mines.
+- **2048** — Join the numbers strategically to reach 2048 and beyond.
 
-## Die Herausforderung
+## Key Features
 
-Ein Logikspiel zu entwickeln erfordert ein empfindliches Gleichgewicht zwischen Schwierigkeit und Frustration. Die größte Herausforderung war die Generierung mathematisch korrekter Level, die von Menschen lösbar sind.
+- ✓ Clean, modern interface with intuitive controls
+- ✓ Lightweight app size — takes minimal storage space
+- ✓ Smooth, responsive performance
+- ✓ Elegant minimalist design
+- ✓ Perfect for quick gaming sessions
+- ✓ Offline play — no internet required
 
-## Die Lösung
+Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
 
-Wir haben einen benutzerdefinierten Puzzle-Generator-Algorithmus entwickelt, der Gitter erstellt und mit menschenähnlichen Strategien löst.
-
-[LogicCraft auf Google Play herunterladen](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)
+[Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)
