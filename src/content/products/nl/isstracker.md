@@ -25,4 +25,6 @@ ISS Tracker is een Android-toepassing voor het realtime volgen van het internati
 
 We hopen dat je geniet van het verkennen van de ruimte met de ISS Tracker!
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

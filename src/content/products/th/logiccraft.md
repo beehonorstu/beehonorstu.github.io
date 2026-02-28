@@ -34,4 +34,6 @@ isFeatured: true
 
 ไม่ว่าคุณจะรอคอยกาแฟ เดินทาง หรือเพียงต้องการท้าทายความคิดแบบเร็วๆ LogicCraft มอบการผสมผสานที่สมบูรณ์แบบของความบันเทิงแบบสบายๆ และการฝึกสมอง
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

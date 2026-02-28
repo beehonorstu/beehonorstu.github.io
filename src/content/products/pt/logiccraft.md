@@ -34,4 +34,6 @@ Desafie sua mente com esta coleção elegante de jogos de quebra-cabeça adorado
 
 Esteja você esperando pelo seu café, no trânsito, ou apenas precisando de um desafio mental rápido, o LogicCraft oferece a mistura perfeita de entretenimento casual e treinamento cerebral.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

@@ -37,4 +37,6 @@ Dotyk Magii na nowo wyobraża sobie sposób, w jaki wchodzisz w interakcje z tel
 
 🔒 **Prywatność na Pierwszym Miejscu** — Twoje gesty są przechowywane lokalnie, a Twoja prywatność jest zawsze chroniona.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

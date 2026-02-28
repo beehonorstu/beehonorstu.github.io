@@ -37,4 +37,6 @@ Phép Chạm hình dung lại cách bạn tương tác với điện thoại c�
 
 🔒 **Bảo Mật Là Trên Hết** — Các cử chỉ của bạn được lưu trữ cục bộ và quyền riêng tư của bạn luôn được bảo vệ.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

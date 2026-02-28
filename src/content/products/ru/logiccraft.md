@@ -34,4 +34,6 @@ isFeatured: true
 
 Ждете ли вы кофе, едете на работу или вам просто нужна быстрая разминка для ума, LogicCraft предлагает идеальное сочетание казуального развлечения и тренировки мозга.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

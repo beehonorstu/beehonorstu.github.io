@@ -25,4 +25,6 @@ ISS Tracker ist eine Android-Anwendung zur Echtzeit-Verfolgung der International
 
 Wir hoffen, Sie genießen es, das Weltall mit dem ISS Tracker zu erkunden!
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

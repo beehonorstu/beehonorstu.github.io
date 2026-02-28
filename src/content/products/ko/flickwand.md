@@ -37,4 +37,6 @@ isFeatured: true
 
 🔒 **개인정보 최우선** — 제스처는 로컬에 저장되며 개인정보는 항상 보호됩니다.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

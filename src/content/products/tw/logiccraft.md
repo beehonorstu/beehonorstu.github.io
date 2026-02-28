@@ -34,4 +34,6 @@ isFeatured: true
 
 無論您是在等咖啡、通勤，還是只需要一個快速的腦力挑戰，LogicCraft 都能提供休閒娛樂和大腦訓練的完美組合。
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

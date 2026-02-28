@@ -37,4 +37,6 @@ GestoMágico reimagina como você interage com seu telefone. Em vez de toques e 
 
 🔒 **Privacidade em primeiro lugar** — Seus gestos são armazenados localmente e sua privacidade é sempre protegida.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

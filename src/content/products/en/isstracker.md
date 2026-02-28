@@ -25,4 +25,6 @@ ISS Tracker is an Android application for tracking the International Space Stati
 
 Hope you enjoy exploring space with ISS Tracker!
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

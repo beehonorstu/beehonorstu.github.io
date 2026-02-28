@@ -34,4 +34,6 @@ Temiz, minimalist bir estetikle güzelce yeniden tasarlanmış bu şık bulmaca 
 
 İster kahvenizi beklerken, ister işe gidip gelirken, isterseniz de sadece hızlı bir zihinsel meydan okumaya ihtiyacınız olsun, LogicCraft gündelik eğlence ve beyin eğitiminin mükemmel karışımını sunar.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

@@ -37,4 +37,6 @@ ZauberGeste erfindet die Art und Weise neu, wie Sie mit Ihrem Telefon interagier
 
 🔒 **Datenschutz geht vor** — Ihre Gesten werden lokal gespeichert und Ihre Privatsphäre ist stets geschützt.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

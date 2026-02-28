@@ -34,4 +34,6 @@ isFeatured: true
 
 커피를 기다리거나 통근하는 동안, 또는 그저 짧은 정신적 도전이 필요할 때, LogicCraft는 캐주얼한 엔터테인먼트와 두뇌 훈련의 완벽한 조화를 제공합니다.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

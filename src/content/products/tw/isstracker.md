@@ -25,4 +25,6 @@ ISS Tracker 是一款用於即時追蹤國際太空站（ISS）的 Android 應�
 
 希望您享受使用 ISS Tracker 探索太空的樂趣！
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

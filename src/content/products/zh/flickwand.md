@@ -37,4 +37,6 @@ isFeatured: true
 
 🔒 **隐私优先** — 您的手势数据存储在本地，您的隐私始终受到保护。
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

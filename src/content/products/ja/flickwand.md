@@ -37,4 +37,6 @@ isFeatured: true
 
 🔒 **プライバシー最優先** — ジェスチャーはローカルに保存され、プライバシーは常に保護されます。
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

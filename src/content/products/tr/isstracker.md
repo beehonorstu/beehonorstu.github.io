@@ -25,4 +25,6 @@ ISS Tracker, Uluslararası Uzay İstasyonunu (ISS) gerçek zamanlı olarak takip
 
 ISS Tracker ile uzayı keşfetmekten keyif alacağınızı umuyoruz!
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

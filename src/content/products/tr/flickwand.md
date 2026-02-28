@@ -37,4 +37,6 @@ SihirliJest, telefonunuzla etkileşim biçiminizi yeniden hayal ediyor. Sıradan
 
 🔒 **Önce Gizlilik** — Jestleriniz yerel olarak saklanır ve gizliliğiniz her zaman korunur.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

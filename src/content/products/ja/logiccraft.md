@@ -34,4 +34,6 @@ isFeatured: true
 
 コーヒーを待っている時や通勤中、あるいは少しだけ頭の体操をしたい時に、LogicCraft はカジュアルな楽しみと脳トレの完璧なブレンドを提供します。
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

@@ -34,4 +34,6 @@ Fordern Sie Ihren Verstand mit dieser eleganten Sammlung beliebter Rätselspiele
 
 Egal, ob Sie auf Ihren Kaffee warten, im Zug sitzen oder einfach nur eine kurze geistige Herausforderung brauchen, LogicCraft bietet die perfekte Mischung aus Gelegenheitsunterhaltung und Gehirntraining.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

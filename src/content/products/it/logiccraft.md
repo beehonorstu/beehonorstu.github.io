@@ -34,4 +34,6 @@ Metti alla prova la tua mente con questa elegante collezione di amati giochi di 
 
 Che tu stia aspettando il tuo caffè, facendo il pendolare o che tu abbia semplicemente bisogno di una rapida sfida mentale, LogicCraft offre la miscela perfetta di intrattenimento casual e allenamento cerebrale.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

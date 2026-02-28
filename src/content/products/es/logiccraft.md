@@ -34,4 +34,6 @@ Desafía tu mente con esta elegante colección de juegos de rompecabezas clásic
 
 Ya sea que estés esperando tu café, viajando, o simplemente necesites un desafío mental rápido, LogicCraft te ofrece la combinación perfecta de entretenimiento casual y entrenamiento cerebral.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

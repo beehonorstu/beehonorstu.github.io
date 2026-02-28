@@ -37,4 +37,6 @@ isFeatured: true
 
 🔒 **الخصوصية أولاً** — يتم تخزين إيماءاتك محليًا وخصوصيتك محمية دائمًا.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

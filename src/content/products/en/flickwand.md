@@ -37,4 +37,6 @@ Flick Wand reimagines how you interact with your phone. Instead of ordinary taps
 
 🔒 **Privacy First** — Your gestures are stored locally and your privacy is always protected.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

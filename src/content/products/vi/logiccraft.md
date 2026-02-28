@@ -34,4 +34,6 @@ Thử thách trí não của bạn với bộ sưu tập các trò chơi giải 
 
 Cho dù bạn đang chờ cà phê, đi làm hay chỉ cần một thử thách tinh thần nhanh chóng, LogicCraft mang đến sự pha trộn hoàn hảo giữa giải trí thông thường và rèn luyện trí não.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

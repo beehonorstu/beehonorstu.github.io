@@ -34,4 +34,6 @@ Daag je geest uit met deze strakke verzameling geliefde puzzelspellen, prachtig 
 
 Of je nu op je koffie wacht, aan het pendelen bent of gewoon een snelle mentale uitdaging nodig hebt, LogicCraft biedt de perfecte mix van casual entertainment en hersentraining.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

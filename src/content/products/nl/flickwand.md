@@ -37,4 +37,6 @@ ToverStaf vindt de manier waarop je met je telefoon communiceert opnieuw uit. In
 
 🔒 **Privacy Eerst** — Je gebaren worden lokaal opgeslagen en je privacy is altijd beschermd.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

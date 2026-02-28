@@ -34,4 +34,6 @@ Challenge your mind with this sleek collection of beloved puzzle games, beautifu
 
 Whether you're waiting for your coffee, commuting, or just need a quick mental challenge, LogicCraft offers the perfect blend of casual entertainment and brain training.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

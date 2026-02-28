@@ -25,4 +25,6 @@ ISS Tracker est une application Android permettant de suivre la Station Spatiale
 
 Nous espérons que vous apprécierez l'exploration de l'espace avec ISS Tracker !
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

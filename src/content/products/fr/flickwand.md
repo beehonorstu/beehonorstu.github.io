@@ -37,4 +37,6 @@ GesteMagique réinvente la façon dont vous interagissez avec votre téléphone.
 
 🔒 **La Confidentialité Avant Tout** — Vos gestes sont stockés localement et votre confidentialité est toujours protégée.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

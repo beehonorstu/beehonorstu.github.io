@@ -37,4 +37,6 @@ GerakAjaib membayangkan kembali cara Anda berinteraksi dengan ponsel. Alih-alih 
 
 🔒 **Privasi yang Utama** — Gerakan Anda disimpan secara lokal dan privasi Anda selalu terlindungi.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx)

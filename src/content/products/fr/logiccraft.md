@@ -34,4 +34,6 @@ Mettez votre esprit au défi avec cette élégante collection de jeux de puzzle 
 
 Que vous attendiez votre café, que vous soyez dans les transports en commun ou que vous ayez simplement besoin d'un défi mental rapide, LogicCraft offre le mélange parfait de divertissement occasionnel et d'entraînement cérébral.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

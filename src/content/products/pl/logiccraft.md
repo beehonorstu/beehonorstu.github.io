@@ -34,4 +34,6 @@ Rzuć swojemu umysłowi wyzwanie za pomocą tej eleganckiej kolekcji uwielbianyc
 
 Czy czekasz na kawę, jedziesz do pracy, czy po prostu potrzebujesz szybkiego wyzwania umysłowego, LogicCraft oferuje doskonałe połączenie relaksującej rozrywki i treningu mózgu.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

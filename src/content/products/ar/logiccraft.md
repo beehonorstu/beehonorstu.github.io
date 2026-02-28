@@ -34,4 +34,6 @@ isFeatured: true
 
 سواء كنت تنتظر قهوتك، أو تتنقل المواصلات، أو كنت تحتاج فقط إلى تحدٍ ذهني سريع، يقدم LogicCraft المزيج المثالي من الترفيه الخفيف وتدريب الدماغ.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

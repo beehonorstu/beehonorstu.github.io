@@ -25,4 +25,6 @@ ISS Tracker は、国際宇宙ステーション（ISS）をリアルタイム�
 
 ISS Tracker で宇宙探索をお楽しみください！
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)

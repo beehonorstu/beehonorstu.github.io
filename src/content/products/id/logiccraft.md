@@ -34,4 +34,6 @@ Tantang pikiran Anda dengan koleksi game puzzle klasik yang disukai ini, yang di
 
 Baik Anda sedang menunggu kopi, bepergian, atau sekadar membutuhkan tantangan mental singkat, LogicCraft menawarkan perpaduan sempurna antara hiburan kasual dan pelatihan otak.
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft)

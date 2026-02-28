@@ -25,4 +25,6 @@ ISS Tracker è un'applicazione Android per tracciare la Stazione Spaziale Intern
 
 Speriamo che ti piaccia esplorare lo spazio con ISS Tracker!
 
+<br>
+
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
