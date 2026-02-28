@@ -125,7 +125,7 @@ export default defineConfig({
   image: {
     domains: ['vitejs.dev', 'upload.wikimedia.org', 'astro.build', 'pagepro.co'],
   },
-  adapter: getAdapter(),
+  // adapter: getAdapter(), // Disabled for GitHub Pages static deployment
   integrations: [
     sitemap({
       filter: (page) => {
