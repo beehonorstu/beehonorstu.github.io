@@ -12,6 +12,7 @@ interface Props {
 }
 
 import { getLangFromUrl, useTranslations } from '~/i18n/utils';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 const lang = getLangFromUrl(Astro.url);
 
 const t = useTranslations(lang);
@@ -44,7 +45,7 @@ const { name, price, description, features, cta, popular = false } = Astro.props
   </ul>
 
   <a 
-    href={`/${lang}/checkout?plan=${name.toLowerCase()}`}
+    href={`${getRelativeLocaleUrl(lang, '/checkout')}?plan=${name.toLowerCase()}`}
     class={`block w-full py-3 px-6 rounded-xl text-center font-medium transition-all ${
         popular 
         ? 'bg-primary text-white hover:bg-primary/90 hover:scale-105' 

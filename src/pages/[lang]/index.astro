@@ -8,9 +8,12 @@ import Section from '~/components/layout/Section.astro';
 import BentoGrid from '~/components/sections/BentoGrid.astro';
 import BentoItem from '~/components/ui/BentoItem.astro';
 import { Gamepad2, Wrench, Globe } from 'lucide-react';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map((lang) => ({ params: { lang } }));
+  return Object.keys(languages)
+    .filter((lang) => lang !== defaultLang)
+    .map((lang) => ({ params: { lang } }));
 }
 
 const { lang = defaultLang } = Astro.params;
@@ -40,7 +43,7 @@ const t = useTranslations(lang);
     >
         <BentoGrid title="Featured Apps">
             <!-- Large Item: ISS Tracker -->
-            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" onclick="window.location.href='/en/products/isstracker'">
+            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/isstracker')}'`}>
                 <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10 transition-opacity"></div>
                 <img src="/images/apps/isstracker_banner.webp" alt="ISS Tracker" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
                 
@@ -54,7 +57,7 @@ const t = useTranslations(lang);
             </BentoItem>
 
             <!-- Medium Item: LogicCraft -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" onclick="window.location.href='/en/products/logiccraft'">
+            <BentoItem class="group cursor-pointer min-h-[300px]" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/logiccraft')}'`}>
                 <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
                 <img src="/images/apps/logiccraft_banner.webp" alt="LogicCraft" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
                 
@@ -68,7 +71,7 @@ const t = useTranslations(lang);
             </BentoItem>
 
             <!-- Medium Item: Flick Wand -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" onclick="window.location.href='/en/products/flickwand'">
+            <BentoItem class="group cursor-pointer min-h-[300px]" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/flickwand')}'`}>
                 <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
                 <img src="/images/apps/flickwand_banner.webp" alt="Flick Wand" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
                 

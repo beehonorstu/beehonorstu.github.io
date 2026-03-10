@@ -7,17 +7,11 @@ import PricingPlan from '~/components/sections/PricingPlan.astro';
 import FAQ from '~/components/sections/FAQ.astro';
 import ComparisonTable from '~/components/sections/ComparisonTable.astro';
 import { CheckCircle2 } from 'lucide-react';
-import { ui, languages, defaultLang } from '~/i18n/ui';
+import { ui, defaultLang } from '~/i18n/ui';
 import { useTranslations } from '~/i18n/utils';
 import Container from '~/components/ui/Container.astro';
 
-export async function getStaticPaths() {
-  return Object.keys(languages)
-    .filter((lang) => lang !== defaultLang)
-    .map((lang) => ({ params: { lang } }));
-}
-
-const { lang = defaultLang } = Astro.params;
+const lang = defaultLang;
 const t = useTranslations(lang);
 
 const faqs = [

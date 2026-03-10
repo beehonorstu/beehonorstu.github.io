@@ -9,6 +9,7 @@ import LanguagePicker from '~/components/common/LanguagePicker.astro';
 import { NAV_LINKS, ACTION_LINKS, siteConfig } from '~/site.config';
 import { defaultLang } from '~/i18n/ui';
 import { useTranslations } from '~/i18n/utils';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 interface Props {
   availableLangs?: string[];
@@ -18,15 +19,20 @@ const { lang = defaultLang } = Astro.params;
 const { availableLangs } = Astro.props;
 const t = useTranslations(lang);
 
+const isExternalLink = (href: string) => /^[a-zA-Z][a-zA-Z+.-]*:/.test(href);
+const normalizePath = (href: string) => (href.startsWith('/') ? href : `/${href}`);
+const localizeHref = (href: string, lang: string, shouldLocalize: boolean) => {
+  if (!shouldLocalize || isExternalLink(href)) return href;
+  return getRelativeLocaleUrl(lang, normalizePath(href));
+};
+
 const translateNavLinks = (links: any[], lang: string, t: any): any[] => {
   return links.map(link => {
     const key = `nav.${link.label.toLowerCase().replace(/\s+/g, '.')}`;
     const descKey = `${key}.desc`;
     
     const shouldLocalize = link.localize !== false;
-    const href = (!shouldLocalize)
-      ? link.href 
-      : `/${lang}${link.href.startsWith('/') ? '' : '/'}${link.href}`.replace(/\/$/, '') || `/${lang}`;
+    const href = localizeHref(link.href, lang, shouldLocalize);
 
     return {
       ...link,
@@ -44,7 +50,7 @@ const links = translateNavLinks(NAV_LINKS, lang, t);
 
 <header class="w-full transition-all duration-300 border-b border-foreground/10 bg-background/80 backdrop-blur-md">
   <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-    <a href={`/${lang}`} class="flex items-center gap-3 text-xl font-bold tracking-tight text-primary dark:text-white group">
+    <a href={getRelativeLocaleUrl(lang, '/')} class="flex items-center gap-3 text-xl font-bold tracking-tight text-primary dark:text-white group">
       {siteConfig.logo && (
         siteConfig.logo.strategy === 'switch' ? (
           <>

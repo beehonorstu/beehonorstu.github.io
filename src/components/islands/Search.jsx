@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Search as SearchIcon, X, Book, Zap, LayoutGrid, FileText } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import DevSearchModal from "./DevSearchModal";
+import { defaultLang } from "~/i18n/ui";
 
 const POPULAR_LINKS = [
   { label: "Getting Started", href: "/docs/getting-started/", icon: Book, localize: false },
@@ -10,7 +11,7 @@ const POPULAR_LINKS = [
   { label: "Blog", href: "/blog/", icon: FileText },
 ];
 
-export default function Search({ placeholder = "Search...", devModalLabels, lang = "en" }) {
+export default function Search({ placeholder = "Search...", devModalLabels, lang = defaultLang }) {
   const [open, setOpen] = useState(false);
 
   // Localize links
@@ -21,9 +22,10 @@ export default function Search({ placeholder = "Search...", devModalLabels, lang
     }
     
     // Otherwise localize
+    const prefix = lang === defaultLang ? "" : `/${lang}`;
     return {
         ...link,
-        href: `/${lang}${link.href}`.replace(/\/+/g, '/')
+        href: `${prefix}${link.href}`.replace(/\/+/g, '/')
     };
   });
 

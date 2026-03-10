@@ -4,16 +4,10 @@ import { siteConfig } from '~/site.config';
 import Container from '~/components/ui/Container.astro';
 import { Mail } from 'lucide-react';
 import PageHeader from '~/components/layout/PageHeader.astro';
-import { languages, defaultLang } from '~/i18n/ui';
+import { defaultLang } from '~/i18n/ui';
 import { useTranslations } from '~/i18n/utils';
 
-export async function getStaticPaths() {
-  return Object.keys(languages)
-    .filter((lang) => lang !== defaultLang)
-    .map((lang) => ({ params: { lang } }));
-}
-
-const { lang = defaultLang } = Astro.params;
+const lang = defaultLang;
 const t = useTranslations(lang);
 ---
 

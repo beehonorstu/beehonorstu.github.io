@@ -1,12 +1,13 @@
 ---
-import { languages } from '../../i18n/ui';
+import { languages, defaultLang } from '../../i18n/ui';
 import { Globe } from 'lucide-react';
+import { getRelativeLocaleUrl } from 'astro:i18n';
 
 interface Props {
     availableLangs?: string[];
 }
 
-const { lang = 'en' } = Astro.params;
+const { lang = defaultLang } = Astro.params;
 const { availableLangs } = Astro.props;
 
 // Filter the languages list to only show available ones if provided
@@ -16,6 +17,10 @@ const displayLanguages = availableLangs
 
 // If we only have 1 (or 0) languages to show, don't render the picker
 const showPicker = displayLanguages.length > 1;
+
+const localePattern = new RegExp(`^/(${Object.keys(languages).join('|')})(?=/|$)`);
+const pathWithoutLocale = Astro.url.pathname.replace(localePattern, '');
+const normalizedPath = pathWithoutLocale === '' ? '/' : pathWithoutLocale;
 ---
 
 {showPicker && (
@@ -29,7 +34,7 @@ const showPicker = displayLanguages.length > 1;
             {displayLanguages.map(([label, name]) => (
                 <li>
                     <a 
-                        href={`/${label}${Astro.url.pathname.replace(new RegExp(`^/(${Object.keys(languages).join('|')})`), '')}`} 
+                        href={getRelativeLocaleUrl(label, normalizedPath)} 
                         class={`block px-4 py-2 text-sm hover:bg-muted transition-colors ${lang === label ? 'text-primary font-bold' : 'text-foreground'}`}
                     >
                         {name}

@@ -1,0 +1,45 @@
+---
+import { getCollection } from 'astro:content';
+import { defaultLang } from '~/i18n/ui';
+
+export async function getStaticPaths() {
+  const paths = new Set([
+    'about',
+    'contact',
+    'pricing',
+    'products',
+    '404',
+  ]);
+
+  const products = await getCollection('products');
+  for (const product of products) {
+    const [lang, ...rest] = product.id.split('/');
+    if (lang !== defaultLang) continue;
+    const slug = rest.join('/').replace(/\.[^/.]+$/, '');
+    paths.add(`products/${slug}`);
+  }
+
+  return Array.from(paths).map((path) => ({
+    params: { path },
+  }));
+}
+
+const targetPath = Astro.url.pathname.replace(/^\/en(?=\/|$)/, '') || '/';
+const search = Astro.url.search || '';
+const target = `${targetPath}${search}`;
+const canonical = new URL(targetPath, Astro.site).toString();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="noindex, follow" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>{`window.location.replace(${JSON.stringify(target)})`}</script>
+    <p>Redirecting to <a href={targetPath}>{targetPath}</a></p>
+  </body>
+</html>

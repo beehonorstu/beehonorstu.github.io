@@ -9,12 +9,11 @@ import { getRelativeLocaleUrl } from 'astro:i18n';
 export async function getStaticPaths() {
 	const posts = await getCollection('products');
 	return posts
-    .filter((post) => post.id.split('/')[0] !== defaultLang)
+    .filter((post) => post.id.split('/')[0] === defaultLang)
     .map((post) => {
-        const lang = post.id.split('/')[0];
         const slug = post.id.split('/').slice(1).join('/').replace(/\.[^/.]+$/, "");
         return {
-		    params: { lang, slug },
+		    params: { slug },
 		    props: { post },
 	    };
     });
@@ -24,7 +23,7 @@ interface Props {
 }
 
 const { post } = Astro.props;
-const { lang = defaultLang } = Astro.params;
+const lang = defaultLang;
 const t = useTranslations(lang);
 
 const { Content } = await render(post);

@@ -1,0 +1,20 @@
+---
+const targetPath = '/';
+const search = Astro.url.search || '';
+const target = `${targetPath}${search}`;
+const canonical = new URL(targetPath, Astro.site).toString();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content="noindex, follow" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>{`window.location.replace(${JSON.stringify(target)})`}</script>
+    <p>Redirecting to <a href={targetPath}>{targetPath}</a></p>
+  </body>
+</html>

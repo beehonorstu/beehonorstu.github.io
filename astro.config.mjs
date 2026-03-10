@@ -131,7 +131,9 @@ export default defineConfig({
       filter: (page) => {
         const url = new URL(page);
         const pathname = url.pathname;
-        return !noIndexUrls.includes(pathname);
+        const is404Path = pathname === '/404' || pathname === '/404/' || /\/404\/?$/.test(pathname);
+        const isLegacyDefaultLocalePath = pathname === `/${DEFAULT_LOCALE}` || pathname.startsWith(`/${DEFAULT_LOCALE}/`);
+        return !is404Path && !isLegacyDefaultLocalePath && !noIndexUrls.includes(pathname);
       }
     }),
     react(),
@@ -149,7 +151,7 @@ export default defineConfig({
     defaultLocale: DEFAULT_LOCALE,
     locales: ["en", "fr", "de", "zh", "tw", "es", "ja", "pt", "ko", "ru", "it", "ar", "id", "tr", "vi", "th", "nl", "pl"],
     routing: {
-      prefixDefaultLocale: true,
+      prefixDefaultLocale: false,
       redirectToDefaultLocale: false
     }
   }
