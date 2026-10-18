@@ -25,6 +25,9 @@ landingpage/public/
 landingpage/.firebase/
 landingpage/firebase-debug.log
 landingpage/firebase-debug.*.log
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
 
 # macOS-specific files
 .DS_Store
