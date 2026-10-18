@@ -20,6 +20,12 @@ pnpm-debug.log*
 .env.production
 .env.test
 
+# Firebase Hosting: track deployment configuration only, not generated files
+landingpage/public/
+landingpage/.firebase/
+landingpage/firebase-debug.log
+landingpage/firebase-debug.*.log
+
 # macOS-specific files
 .DS_Store
 

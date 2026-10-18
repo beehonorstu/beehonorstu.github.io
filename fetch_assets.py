@@ -7,6 +7,7 @@ APPS = {
     'logiccraft': 'https://play.google.com/store/apps/details?id=com.behonorstudio.logiccraft',
     'flickwand': 'https://play.google.com/store/apps/details?id=com.behonorstudio.flickstartx',
     'isstracker': 'https://play.google.com/store/apps/details?id=com.behonor.iss_tracker',
+    'mathpuzzle': 'https://play.google.com/store/apps/details?id=com.behonorstudio.mathpuzzle',
 }
 
 OUTPUT_DIR = 'public/images/apps'

@@ -65,7 +65,12 @@ const availableLangs = allPosts
                 </div>
 
                 <div class="flex items-center justify-between mb-6">
-                    <h1 class="text-4xl md:text-6xl font-display font-bold">{post.data.title}</h1>
+                    <div class="flex items-center gap-4 min-w-0">
+                        {post.data.appIcon && (
+                            <img src={post.data.appIcon} alt={`${post.data.title} app icon`} width="64" height="64" class="w-12 h-12 md:w-16 md:h-16 rounded-2xl shadow-lg shrink-0 object-cover" />
+                        )}
+                        <h1 class="text-4xl md:text-6xl font-display font-bold">{post.data.title}</h1>
+                    </div>
                     {post.data.link && (
                         <a 
                             href={post.data.link} 

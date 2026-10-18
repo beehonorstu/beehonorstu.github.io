@@ -9,6 +9,7 @@ const productsCollection = defineCollection({
         description: z.string(),
         pubDate: z.coerce.date(),
         heroImage: z.string(),
+        appIcon: z.string().optional(),
         tags: z.array(z.string()),
         link: z.string().optional(),
         noindex: z.boolean().optional().default(false),

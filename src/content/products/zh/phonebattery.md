@@ -1,0 +1,26 @@
+---
+title: "PhoneBattery"
+description: "实时查看 Android 电池电流、功率、温度和预计充电完成时间，轻松规划充电、设置提醒并查看历史记录。"
+pubDate: 2026-10-18
+tags: ["Android", "Battery", "Charging"]
+heroImage: /images/apps/phonebattery_banner.svg
+appIcon: /images/apps/phonebattery_icon.svg
+---
+
+## 充电状态，一目了然
+
+**PhoneBattery** 帮你了解手机的实际充电情况。直观查看剩余电量、充电电流、电压、电池端功率、温度以及预计完成时间。所有预测都可能随手机温度、使用情况和充电速度变化。
+
+## 主要功能
+
+- **实时监控：** 查看充电状态、电流、电压、温度、功率和供电来源；部分传感器数据取决于手机支持情况。
+- **预计完成时间：** 根据实际充电情况预测达到目标电量的时间。
+- **充电规划：** 按可用时间、目标电量或夜间起床时间安排充电。
+- **充电提醒：** 可设置目标电量提醒和高温警告，并选择系统提示音；后台提醒需要相关权限。
+- **充电测试与历史：** 进行短时充电测试，查看电流和功率统计，并在本机查看或清除充电历史。
+
+**重要说明：** 应用仅提供估算和通知，无法关闭手机的物理充电过程。功率指电池侧的估算或测量值，不代表充电器的额定输出功率。
+
+## 隐私说明
+
+充电历史和应用设置保存在本机。正式版本还使用 Google AdMob 广告，以及 Firebase Analytics 和 Crashlytics 进行使用情况统计与故障诊断。详情参见 [PhoneBattery 隐私政策](/products/phonebattery/privacy_policy)。
