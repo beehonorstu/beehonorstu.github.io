@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">Charge Expert app icon</title>
+  <!-- Background color and foreground paths match the Android adaptive launcher icon. -->
+  <rect width="1024" height="1024" rx="210" fill="#D5F86A"/>
+  <g transform="translate(143.36 143.36) scale(0.72)" fill="#171717">
+    <path d="M455,205H569C584.5,205 597,217.5 597,233V258H427V233C427,217.5 439.5,205 455,205Z"/>
+    <path fill-rule="evenodd" d="M411,267H613C660,267 698,305 698,352V716C698,763 660,801 613,801H411C364,801 326,763 326,716V352C326,305 364,267 411,267ZM418,309C390,309 368,331 368,359V709C368,737 390,759 418,759H606C634,759 656,737 656,709V359C656,331 634,309 606,309H418Z"/>
+    <path d="M390,677V564C390,534 409,509 440,491L601,402C620,391 637,400 637,420V490C637,514 625,528 604,540L443,626C418,640 400,654 390,677Z"/>
+  </g>
+</svg>

@@ -4,7 +4,7 @@ description: "即時查看 Android 電池電流、功率、溫度與預估充電
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
 heroImage: https://cdn.sanity.io/images/9urti28l/production/f6baa6337fdad0626d0efd7cd4d7003c63e798c8-1748x900.png
-appIcon: /images/apps/phonebattery_icon.svg
+appIcon: /images/apps/charge_expert_icon.svg
 ---
 
 ## 充電狀態，一目了然

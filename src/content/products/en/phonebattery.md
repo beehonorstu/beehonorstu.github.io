@@ -4,7 +4,7 @@ description: "Smarter Android charging with live battery data, estimated complet
 pubDate: 2026-10-18
 tags: ["Android", "Charging Monitor", "Battery"]
 heroImage: https://cdn.sanity.io/images/9urti28l/production/f6baa6337fdad0626d0efd7cd4d7003c63e798c8-1748x900.png
-appIcon: /images/apps/phonebattery_icon.svg
+appIcon: /images/apps/charge_expert_icon.svg
 ---
 
 ## See how your phone charges
