@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1360" height="700" viewBox="0 0 1360 700" role="img" aria-labelledby="title desc">
-<title id="title">PhoneBattery - Charge smarter</title>
+<title id="title">Charge Expert - Charge smarter</title>
 <desc id="desc">A dark premium battery-monitoring banner with lime accents and a real screenshot of the Android app.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#081518"/><stop offset="0.62" stop-color="#142520"/><stop offset="1" stop-color="#28392B"/></linearGradient>
@@ -13,7 +13,7 @@
 <path d="M0 625c282-140 410-82 600-210 196-126 310-168 760-78" fill="none" stroke="#D8FF67" stroke-width="1" stroke-opacity=".09"/>
 <rect x="84" y="77" width="60" height="60" rx="16" fill="#D7FC62"/>
 <path d="M117 85 99 115h14l-5 20 22-32h-15z" fill="#16211B"/>
-<text x="158" y="117" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="32" letter-spacing="-.5">PhoneBattery</text>
+<text x="158" y="117" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="32" letter-spacing="-.5">Charge Expert</text>
 <rect x="84" y="179" width="195" height="35" rx="17" fill="#D7FC62" fill-opacity=".12" stroke="#D7FC62" stroke-opacity=".35"/>
 <text x="105" y="202" fill="#D7FC62" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="2.4">ANDROID UTILITY</text>
 <text x="77" y="319" fill="#F8FFF7" font-family="Arial,Helvetica,sans-serif" font-weight="800" font-size="73" letter-spacing="-2.8">Charge</text>

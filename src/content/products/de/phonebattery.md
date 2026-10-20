@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Ladeexperte"
 description: "Android-Ladevorgänge im Blick: Strom, Leistung, Temperatur, Restzeit, Erinnerungen und lokaler Ladeverlauf."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Laden auf einen Blick
 
-**PhoneBattery** zeigt Akkustand, Ladestrom, Spannung, Leistung auf Akkuseite, Temperatur und eine geschätzte Fertigstellungszeit. Die Prognose passt sich Nutzung und Ladebedingungen an.
+**Ladeexperte** zeigt Akkustand, Ladestrom, Spannung, Leistung auf Akkuseite, Temperatur und eine geschätzte Fertigstellungszeit. Die Prognose passt sich Nutzung und Ladebedingungen an.
 
 ## Funktionen
 

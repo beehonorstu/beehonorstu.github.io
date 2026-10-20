@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Expert Recharge"
 description: "Suivez la charge de votre Android : courant, puissance, température, heure estimée, alertes et historique local."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Votre recharge en un coup d’œil
 
-**PhoneBattery** affiche le niveau de batterie, le courant, la tension, la puissance côté batterie, la température et une estimation de l’heure de fin. Cette estimation évolue selon l’usage et les conditions de charge.
+**Expert Recharge** affiche le niveau de batterie, le courant, la tension, la puissance côté batterie, la température et une estimation de l’heure de fin. Cette estimation évolue selon l’usage et les conditions de charge.
 
 ## Fonctionnalités
 
@@ -23,4 +23,4 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Confidentialité
 
-L’historique et les réglages restent sur l’appareil. La version publiée intègre également Google AdMob, Firebase Analytics et Crashlytics. Consultez la [politique de confidentialité de PhoneBattery](/products/phonebattery/privacy_policy).
+L’historique et les réglages restent sur l’appareil. La version publiée intègre également Google AdMob, Firebase Analytics et Crashlytics. Consultez la [politique de confidentialité de Expert Recharge](/products/phonebattery/privacy_policy).

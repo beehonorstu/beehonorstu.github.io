@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Charge Expert"
 description: "Theo dõi sạc Android: dòng điện, công suất, nhiệt độ, thời gian ước tính, cảnh báo và lịch sử trên máy."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Theo dõi sạc dễ dàng
 
-**PhoneBattery** hiển thị mức pin, dòng điện, điện áp, công suất phía pin, nhiệt độ và thời gian ước tính để đạt mức sạc mong muốn. Ước tính có thể thay đổi theo cách sử dụng và điều kiện sạc.
+**Charge Expert** hiển thị mức pin, dòng điện, điện áp, công suất phía pin, nhiệt độ và thời gian ước tính để đạt mức sạc mong muốn. Ước tính có thể thay đổi theo cách sử dụng và điều kiện sạc.
 
 ## Tính năng chính
 

@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Charge Expert"
 description: "Smarter Android charging with live battery data, estimated completion times, charge targets, reminders, short charger tests and local history."
 pubDate: 2026-10-18
 tags: ["Android", "Charging Monitor", "Battery"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## See how your phone charges
 
-**PhoneBattery** gives you a clear view of what is happening when your Android device is charging. Instead of guessing when it will be ready, check the current battery level, charging current, battery-side power, voltage, temperature and the estimated time to your chosen goal.
+**Charge Expert** gives you a clear view of what is happening when your Android device is charging. Instead of guessing when it will be ready, check the current battery level, charging current, battery-side power, voltage, temperature and the estimated time to your chosen goal.
 
 The interface is designed to be easy to read at a glance, with simple charging status cards and deeper technical details when you want them.
 
@@ -24,7 +24,7 @@ The interface is designed to be easy to read at a glance, with simple charging s
 
 ## Made for practical decisions
 
-PhoneBattery **estimates and notifies**; it cannot physically stop charging or control the phone's charging circuitry. Power figures are battery-side measurements or estimates, not claims about the charger's advertised output. Sensor and cycle-count availability varies by Android device.
+Charge Expert **estimates and notifies**; it cannot physically stop charging or control the phone's charging circuitry. Power figures are battery-side measurements or estimates, not claims about the charger's advertised output. Sensor and cycle-count availability varies by Android device.
 
 You do not need to create an account to use the app's core charging tools.
 
@@ -32,4 +32,4 @@ You do not need to create an account to use the app's core charging tools.
 
 Charging measurements, charging-session history and your settings are handled in the app's local storage. The release app also uses Google AdMob for banner advertising and Firebase services for usage analytics and crash diagnostics. Those services may process technical and advertising-related information. We do not intentionally include charging measurements or user-entered charger names in custom analytics events.
 
-For details about permissions, advertising choices, data storage and deletion, read the **[PhoneBattery Privacy Policy](/products/phonebattery/privacy_policy)**.
+For details about permissions, advertising choices, data storage and deletion, read the **[Charge Expert Privacy Policy](/products/phonebattery/privacy_policy)**.

@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Esperto Ricarica"
 description: "Monitora la ricarica Android: corrente, potenza, temperatura, tempi stimati, avvisi e cronologia locale."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## La ricarica sotto controllo
 
-**PhoneBattery** mostra livello di carica, corrente, tensione, potenza lato batteria, temperatura e tempo stimato per raggiungere l’obiettivo. Le stime variano in base all’uso del telefono e alle condizioni di ricarica.
+**Esperto Ricarica** mostra livello di carica, corrente, tensione, potenza lato batteria, temperatura e tempo stimato per raggiungere l’obiettivo. Le stime variano in base all’uso del telefono e alle condizioni di ricarica.
 
 ## Funzioni principali
 

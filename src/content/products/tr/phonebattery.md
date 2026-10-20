@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Şarj Uzmanı"
 description: "Android şarjını izleyin: akım, güç, sıcaklık, tahmini bitiş, uyarılar ve yerel geçmiş."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Şarj durumunuz bir bakışta
 
-**PhoneBattery**, pil seviyesi, akım, voltaj, pil tarafındaki güç, sıcaklık ve hedefe ulaşma tahminini anlaşılır biçimde gösterir. Tahminler telefon kullanımına ve şarj koşullarına göre değişebilir.
+**Şarj Uzmanı**, pil seviyesi, akım, voltaj, pil tarafındaki güç, sıcaklık ve hedefe ulaşma tahminini anlaşılır biçimde gösterir. Tahminler telefon kullanımına ve şarj koşullarına göre değişebilir.
 
 ## Öne çıkan özellikler
 

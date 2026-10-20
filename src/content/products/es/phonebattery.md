@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Carga Experta"
 description: "Controla la carga de Android: corriente, potencia, temperatura, tiempo estimado, alertas e historial local."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Tu carga, de un vistazo
 
-**PhoneBattery** muestra el nivel de batería, la corriente, el voltaje, la potencia en la batería, la temperatura y el tiempo estimado hasta tu objetivo. Las estimaciones pueden cambiar según el uso del teléfono y las condiciones de carga.
+**Carga Experta** muestra el nivel de batería, la corriente, el voltaje, la potencia en la batería, la temperatura y el tiempo estimado hasta tu objetivo. Las estimaciones pueden cambiar según el uso del teléfono y las condiciones de carga.
 
 ## Funciones principales
 
@@ -23,4 +23,4 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Privacidad
 
-El historial y los ajustes se almacenan en el dispositivo. La versión publicada también usa Google AdMob, Firebase Analytics y Crashlytics. Lee la [política de privacidad de PhoneBattery](/products/phonebattery/privacy_policy).
+El historial y los ajustes se almacenan en el dispositivo. La versión publicada también usa Google AdMob, Firebase Analytics y Crashlytics. Lee la [política de privacidad de Carga Experta](/products/phonebattery/privacy_policy).

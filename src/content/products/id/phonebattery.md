@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Cas Pro"
 description: "Pantau pengisian Android: arus, daya, suhu, perkiraan waktu selesai, pengingat, dan riwayat lokal."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Pengisian lebih jelas
 
-**PhoneBattery** menampilkan level baterai, arus, tegangan, daya di sisi baterai, suhu, dan perkiraan waktu untuk mencapai target. Perkiraan dapat berubah menurut penggunaan ponsel dan kondisi pengisian.
+**Cas Pro** menampilkan level baterai, arus, tegangan, daya di sisi baterai, suhu, dan perkiraan waktu untuk mencapai target. Perkiraan dapat berubah menurut penggunaan ponsel dan kondisi pengisian.
 
 ## Fitur utama
 
@@ -23,4 +23,4 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Privasi
 
-Riwayat pengisian dan pengaturan disimpan di perangkat. Versi rilis juga menggunakan Google AdMob, Firebase Analytics, dan Crashlytics. Baca [Kebijakan Privasi PhoneBattery](/products/phonebattery/privacy_policy).
+Riwayat pengisian dan pengaturan disimpan di perangkat. Versi rilis juga menggunakan Google AdMob, Firebase Analytics, dan Crashlytics. Baca [Kebijakan Privasi Cas Pro](/products/phonebattery/privacy_policy).

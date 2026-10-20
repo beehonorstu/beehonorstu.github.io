@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Laadexpert"
 description: "Volg het laden van je Android: stroom, vermogen, temperatuur, resterende tijd, meldingen en lokale geschiedenis."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Je laadsessie in één oogopslag
 
-**PhoneBattery** toont het batterijniveau, de laadstroom, spanning, het vermogen aan de batterij, temperatuur en de geschatte eindtijd. De schatting verandert met gebruik en laadomstandigheden.
+**Laadexpert** toont het batterijniveau, de laadstroom, spanning, het vermogen aan de batterij, temperatuur en de geschatte eindtijd. De schatting verandert met gebruik en laadomstandigheden.
 
 ## Belangrijkste functies
 

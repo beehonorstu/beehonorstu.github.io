@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "Ładowanie Pro"
 description: "Monitoruj ładowanie Androida: prąd, moc, temperaturę, pozostały czas, alerty i lokalną historię."
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## Ładowanie pod kontrolą
 
-**PhoneBattery** pokazuje poziom baterii, prąd, napięcie, moc po stronie baterii, temperaturę i szacowany czas do wybranego celu. Prognozy zmieniają się zależnie od korzystania z telefonu i warunków ładowania.
+**Ładowanie Pro** pokazuje poziom baterii, prąd, napięcie, moc po stronie baterii, temperaturę i szacowany czas do wybranego celu. Prognozy zmieniają się zależnie od korzystania z telefonu i warunków ładowania.
 
 ## Najważniejsze funkcje
 

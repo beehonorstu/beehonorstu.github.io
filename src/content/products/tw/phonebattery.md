@@ -1,5 +1,5 @@
 ---
-title: "PhoneBattery"
+title: "充電專家"
 description: "即時查看 Android 電池電流、功率、溫度與預估充電完成時間，輕鬆規劃充電並設定提醒。"
 pubDate: 2026-10-18
 tags: ["Android", "Battery", "Charging"]
@@ -9,7 +9,7 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## 充電狀態，一目了然
 
-**PhoneBattery** 讓你清楚掌握手機的充電情況，包括電池電量、充電電流、電壓、電池端功率、溫度與預估完成時間。預測結果會隨溫度、使用情況和充電速度而變動。
+**充電專家** 讓你清楚掌握手機的充電情況，包括電池電量、充電電流、電壓、電池端功率、溫度與預估完成時間。預測結果會隨溫度、使用情況和充電速度而變動。
 
 ## 主要功能
 
@@ -23,4 +23,4 @@ appIcon: /images/apps/phonebattery_icon.svg
 
 ## 隱私與資料
 
-充電紀錄與設定儲存在裝置上。正式版也使用 Google AdMob 廣告，以及 Firebase Analytics 和 Crashlytics 進行使用統計與當機診斷。詳情請見 [PhoneBattery 隱私權政策](/products/phonebattery/privacy_policy)。
+充電紀錄與設定儲存在裝置上。正式版也使用 Google AdMob 廣告，以及 Firebase Analytics 和 Crashlytics 進行使用統計與當機診斷。詳情請見 [充電專家 隱私權政策](/products/phonebattery/privacy_policy)。
