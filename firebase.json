@@ -6,6 +6,18 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [
+      {
+        "source": "/products/notedancer",
+        "destination": "https://kelly-website.web.app/products/notedancer/",
+        "type": 301
+      },
+      {
+        "source": "/products/notedancer/",
+        "destination": "https://kelly-website.web.app/products/notedancer/",
+        "type": 301
+      }
+    ],
     "headers": [
       {
         "source": "/app-ads.txt",
