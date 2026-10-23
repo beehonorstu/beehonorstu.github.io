@@ -1,0 +1,101 @@
+---
+import UntranslatedLayout from '~/layouts/UntranslatedLayout.astro';
+import { ArrowLeft, ShieldCheck, MapPin, Database, Megaphone } from 'lucide-react';
+---
+
+<UntranslatedLayout
+  title="ISS Tracker Privacy Policy | BeHonor Studio"
+  description="How ISS Tracker uses optional device location for pass predictions, stores orbital data, and handles online services, AdMob advertising, Firebase analytics and crash reports."
+>
+  <article class="pt-32 pb-24">
+    <div class="max-w-4xl mx-auto px-6">
+      <div class="mb-10">
+        <a href="/products/isstracker/" class="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group mb-6">
+          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          Back to ISS Tracker
+        </a>
+        <div class="flex items-center gap-4 mb-6">
+          <img src="/images/apps/isstracker_icon.webp" alt="ISS Tracker icon" width="64" height="64" class="rounded-2xl shadow-md shrink-0" />
+          <span class="text-sm font-semibold uppercase tracking-widest text-primary">BeHonor Studio · Android</span>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 font-display text-foreground">Privacy Policy for ISS Tracker</h1>
+        <p class="text-sm text-muted-foreground">Effective date: October 24, 2026 · Last updated: October 24, 2026</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+        <div class="p-5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20">
+          <MapPin className="w-7 h-7 text-emerald-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Location is optional</h2>
+          <p class="text-xs text-muted-foreground mt-2">With your permission, your device location helps calculate ISS visibility and upcoming passes locally.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-indigo-500/10 border border-indigo-500/20">
+          <Database className="w-7 h-7 text-indigo-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Orbit data stays on your device</h2>
+          <p class="text-xs text-muted-foreground mt-2">Satellite records, content snapshots and viewing preferences can be cached in private app storage.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/20">
+          <Megaphone className="w-7 h-7 text-amber-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Third-party services disclosed</h2>
+          <p class="text-xs text-muted-foreground mt-2">Online content, advertisements, usage analytics and crash diagnostics involve network-based services.</p>
+        </div>
+      </div>
+
+      <div class="prose dark:prose-invert max-w-none text-foreground/80 leading-relaxed prose-headings:font-display prose-headings:text-foreground prose-a:text-primary">
+        <p class="text-lg font-medium text-foreground">
+          BeHonor Studio (“we”, “our”, “us”) provides ISS Tracker, an Android app for tracking the International Space Station, viewing space content and predicting visible passes. This policy explains the information the app processes, its permissions, how third-party services may process information and what choices you have. It applies to ISS Tracker only, not to other BeHonor Studio apps.
+        </p>
+        <p>ISS Tracker does not require registration or an account. Orbital calculations and location-based pass predictions can run on your device, but the release app uses network services for orbital information, maps, space imagery, video, advertising, analytics and crash diagnostics. We do not claim that the app is entirely offline or that no technical data is collected.</p>
+
+        <h2>1. ISS information and local storage</h2>
+        <p>ISS Tracker retrieves orbital elements and satellite information to calculate the station's position, ground track, speed and altitude. It also retrieves available launch schedules, expedition crew profiles, daily space imagery and live-video information. These public space-related records are separate from your personal location.</p>
+        <p>Orbital records are stored in an on-device database. The app can also cache content snapshots, image files, video-source information and refresh metadata. Preferences such as your selected start screen or dismissed tips are stored locally. The app does not require cloud synchronization or an ISS Tracker account.</p>
+        <p>We do not intentionally upload your local app preferences, device-location coordinates or viewing history as custom Firebase Analytics event parameters.</p>
+
+        <h2>2. Optional location permissions and visible-pass predictions</h2>
+        <p>ISS Tracker requests Android <strong>precise (ACCESS_FINE_LOCATION)</strong> and <strong>approximate (ACCESS_COARSE_LOCATION)</strong> location permissions only when you choose to enable location-based features. With your permission, the app obtains a device location through Android or Google Play services, displays your approximate position on the map and calculates predicted ISS passes for your area on the device.</p>
+        <p>We do not intentionally add your latitude or longitude to our orbital-data or space-content API requests or to custom Firebase Analytics events. However, a device location provider may process information under its own privacy terms. Online services can also infer an approximate location from your IP address when receiving ordinary network requests.</p>
+        <p>Location access is optional. You can deny or revoke it in Android Settings. ISS tracking, the 3D Earth view, space content and live video remain available without location permission, but user-position and visible-pass features may be limited.</p>
+
+        <h2>3. Advertising and consent choices</h2>
+        <p>ISS Tracker's release version displays banner ads through <strong>Google AdMob / Google Mobile Ads SDK</strong>. To serve and measure advertisements, secure the service and prevent fraud, Google's SDK may process IP addresses, location inferred from network connections, device or advertising identifiers, app and device characteristics, ad impressions, interactions and technical diagnostics.</p>
+        <p>The app uses <strong>Google User Messaging Platform (UMP)</strong> for applicable advertising consent choices. Where required, it shows a consent form and makes an advertising privacy-options entry available in Settings. Ad requests follow the consent information available to the SDK. Declining personalized advertising does not necessarily eliminate all technical processing needed for limited advertising, measurement or fraud prevention.</p>
+        <p>Learn more at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google Advertising</a>.</p>
+
+        <h2>4. Usage analytics and crash diagnostics</h2>
+        <p>The release app uses <strong>Google Analytics for Firebase</strong> to understand app usage and <strong>Firebase Crashlytics</strong> to investigate crashes and improve reliability. Custom usage events cover screens and tabs, orbital-data loading, location permission decisions, pass-prediction status, video playback actions, space-content loading, opening launch or crew details and image download or wallpaper actions.</p>
+        <p>These custom events use predefined names and bounded categories or states. We do not intentionally include raw coordinates, individual video IDs, launch IDs or titles, astronaut names, image URLs or user-entered text in custom analytics event parameters. Crashlytics may separately receive exception details, stack traces and relevant technical application state, which should not be assumed to be anonymous.</p>
+        <p>Google may automatically process app-instance identifiers, device and operating-system information, app version, session and event timestamps, diagnostics and related technical data. Automatic screen reporting is disabled; the app explicitly records its own tab views. Firebase analytics and crash collection are enabled in the release version, without a separate in-app telemetry opt-out switch. Advertising consent controls do not operate as a global switch for Firebase telemetry. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a>.</p>
+
+        <h2>5. Online content, external services and downloads</h2>
+        <p>To operate its features, ISS Tracker connects to BeHonor Studio's data services and third-party sources for orbital updates, launch and crew information, map and 3D Earth tiles, images and live video. These providers may receive normal network request data such as IP address, request time, requested content and device or application details needed to deliver their services. We do not intentionally append your device's precise location coordinates to these content requests.</p>
+        <p>Embedded video playback and links that open other apps or websites may involve additional third-party processing under the destination provider's policies. We encourage you to review those policies when using external services.</p>
+        <p>When you choose to download a space image or set it as wallpaper, the app obtains the image and uses Android's photo-gallery or wallpaper functionality. Images stored in your gallery, wallpaper settings or an external destination may remain there independently of ISS Tracker. There is no ISS Tracker account for uploading your photo gallery.</p>
+        <p>If you contact support, we receive the email address and message content you choose to provide. We do not sell your locally stored orbital records or app preferences.</p>
+
+        <h2>6. Retention, deletion and Android backups</h2>
+        <p>Cached orbital records, downloaded content in app-private storage and preferences may be refreshed or replaced as the app runs. Clearing the app's storage or uninstalling ISS Tracker normally removes its private local data from that device. Gallery images, wallpapers, files you share with other apps and data held by external providers are not necessarily removed when the app is uninstalled.</p>
+        <p>ISS Tracker permits Android system backup and device transfer. Depending on the Android version, device settings and backup provider, local app data may be backed up or restored. You can manage or disable Android backups in system settings; deleting on-device data does not necessarily delete previous operating-system backups.</p>
+        <p>Advertising, analytics, diagnostics and server connection data processed by external service providers are subject to their applicable retention policies and service settings. Uninstalling the app does not immediately delete data those services previously processed. Contact us for assistance with privacy requests.</p>
+
+        <h2>7. Security and international processing</h2>
+        <p>Local information is stored within Android's app storage, subject to device security and backup settings. The app uses network connections to retrieve information and access external services. Third-party providers maintain their own security measures and may process technical data outside your country. No transmission or storage method can be guaranteed completely secure.</p>
+
+        <h2>8. Children's privacy</h2>
+        <p>ISS Tracker is a general-purpose space-tracking app and is not directed to children under 13. We do not knowingly request personal information from children under 13. If you believe a child has provided personal information through a support request, please contact us.</p>
+
+        <h2>9. Your choices and rights</h2>
+        <p>You can control location permissions in Android Settings; access advertising privacy choices where available; clear local app storage; delete downloaded images from your gallery; or uninstall the app. Depending on your jurisdiction, you may have rights to request access, deletion, correction, restriction or other handling of personal data, or withdraw consent where applicable. Contact us to make a request; third-party data requests may require coordination with the service provider.</p>
+
+        <h2>10. Changes to this policy</h2>
+        <p>We may revise this policy when app functionality, applicable law or third-party services change. We will publish the updated policy here and revise the date at the top of the page.</p>
+
+        <h2>11. Contact</h2>
+        <p>For privacy questions or requests concerning ISS Tracker, contact BeHonor Studio at <a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>.</p>
+      </div>
+      <div class="mt-12 pt-8 border-t border-foreground/10 flex gap-3 items-center text-sm text-muted-foreground">
+        <ShieldCheck className="w-5 h-5 text-emerald-500 shrink-0" />
+        <span>This is the privacy policy for the ISS Tracker Android app, not the general BeHonor Studio website policy.</span>
+      </div>
+    </div>
+  </article>
+</UntranslatedLayout>
