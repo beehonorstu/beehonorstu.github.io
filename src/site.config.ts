@@ -2,7 +2,7 @@ import type { Facebook } from "lucide-react";
 
 export const siteConfig = {
   name: 'BeHonor Studio',
-  description: 'Creator of Charge Expert, Math Puzzle, Flick Wand, and ISS Tracker.',
+  description: 'Creator of NoteDancer, Charge Expert, Math Puzzle, Flick Wand, and ISS Tracker.',
   logo: undefined,
   ogImage: '/og-image.webp',
   primaryColor: '#00008B', // Default primary color

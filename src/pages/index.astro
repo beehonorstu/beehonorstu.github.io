@@ -14,7 +14,7 @@ const lang = defaultLang;
 const t = useTranslations(lang);
 ---
 
-<Layout title="BeHonor Studio | Apps & Games" description="BeHonor Studio - Creator of Charge Expert, Math Puzzle, Flick Wand, and ISS Tracker.">
+<Layout title="BeHonor Studio | Apps & Games" description="BeHonor Studio creates NoteDancer, Charge Expert, Math Puzzle, Flick Wand, and ISS Tracker—independent web tools and apps.">
     <Schema item={{
             "@context": "https://schema.org",
             "@type": "Organization",
@@ -103,6 +103,19 @@ const t = useTranslations(lang);
                     <p class="text-muted-foreground text-sm mb-5">Discover our full collection of useful Android apps and playful experiences.</p>
                     <a href={getRelativeLocaleUrl(lang, '/products')} class="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline">See all products <span aria-hidden="true">→</span></a>
                 </div>
+            </BentoItem>
+
+            <!-- NoteDancer is a web app, so link to its real website (not Google Play). -->
+            <BentoItem class="md:col-span-3 group min-h-[300px]">
+                <div class="absolute inset-0 bg-[#242027]"></div>
+                <img src="/images/apps/notedancer_preview.webp" alt="" loading="lazy" width="1100" height="619" class="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 group-hover:scale-[1.025] transition-all duration-700" style="object-position: center 38%;" />
+                <div class="absolute inset-0 bg-gradient-to-r from-[#19141d]/95 via-[#19141d]/75 to-[#19141d]/10"></div>
+                <a href="https://notedancer.com/" target="_blank" rel="noopener noreferrer" class="absolute inset-0 z-20 flex flex-col justify-center p-8 md:p-12 text-white hover:text-white" aria-label="Open NoteDancer — MIDI visualizer website">
+                    <span class="text-xs font-bold tracking-[.2em] uppercase text-fuchsia-200/85 mb-3">Interactive music web app</span>
+                    <h3 class="text-3xl md:text-4xl font-display font-bold text-white mb-3">NoteDancer <span aria-hidden="true" class="text-fuchsia-200 text-2xl">↗</span></h3>
+                    <p class="text-white/80 text-sm md:text-base max-w-lg leading-relaxed">Turn MIDI into animated sheet music with dancing notes and piano sound. Make synchronized MP4 videos in your browser.</p>
+                    <span class="inline-flex gap-2 items-center text-white text-sm font-semibold mt-5">Try notedancer.com <span aria-hidden="true">→</span></span>
+                </a>
             </BentoItem>
 
         </BentoGrid>
