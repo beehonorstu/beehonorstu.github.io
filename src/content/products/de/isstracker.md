@@ -28,3 +28,7 @@ Wir hoffen, Sie genießen es, das Weltall mit dem ISS Tracker zu erkunden!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Datenschutz und Transparenz
+
+Der Standortzugriff ist optional und dient der Vorhersage sichtbarer ISS-Überflüge. Bahndaten und Einstellungen werden lokal gespeichert. Die veröffentlichte App verwendet außerdem Google AdMob, Firebase Analytics und Crashlytics und lädt Weltrauminhalte aus dem Internet. Weitere Informationen finden Sie in der [Datenschutzerklärung von ISS Tracker](/products/isstracker/privacy_policy/).

@@ -28,3 +28,7 @@ Semoga Anda menikmati menjelajahi luar angkasa bersama ISS Tracker!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Privasi dan transparansi
+
+Izin lokasi bersifat opsional dan digunakan untuk memperkirakan kapan ISS terlihat melintas. Data orbit dan preferensi disimpan di perangkat. Versi rilis juga menggunakan Google AdMob, Firebase Analytics, dan Crashlytics serta memuat konten antariksa secara online. Baca [Kebijakan Privasi ISS Tracker](/products/isstracker/privacy_policy/) untuk informasi lebih lanjut.

@@ -28,3 +28,7 @@ We hopen dat je geniet van het verkennen van de ruimte met de ISS Tracker!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Privacy en transparantie
+
+Locatietoegang is optioneel en wordt gebruikt om zichtbare ISS-overvluchten te voorspellen. Baangegevens en voorkeuren worden op je apparaat opgeslagen. De gepubliceerde app gebruikt ook Google AdMob, Firebase Analytics en Crashlytics en haalt ruimtevaartinhoud online op. Lees het [privacybeleid van ISS Tracker](/products/isstracker/privacy_policy/) voor meer informatie.

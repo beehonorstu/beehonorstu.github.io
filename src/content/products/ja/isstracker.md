@@ -28,3 +28,7 @@ ISS Tracker で宇宙探索をお楽しみください！
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## プライバシーについて
+
+位置情報の利用は任意で、ISS の可視通過予測に使用します。軌道データや設定は端末内に保存されます。製品版では Google AdMob、Firebase Analytics、Crashlytics を使用し、宇宙関連コンテンツをオンラインで取得します。詳しくは [ISS Tracker プライバシーポリシー](/products/isstracker/privacy_policy/) をご覧ください。

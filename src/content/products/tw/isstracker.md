@@ -28,3 +28,7 @@ ISS Tracker 是一款用於即時追蹤國際太空站（ISS）的 Android 應�
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## 隱私說明
+
+定位權限為選用功能，僅用於計算您所在地的 ISS 可見過境預測。軌道資料與應用程式偏好儲存在裝置上；正式版也使用 Google AdMob、Firebase Analytics 和 Crashlytics，並連線取得太空資訊。詳情請參閱 [ISS Tracker 隱私權政策](/products/isstracker/privacy_policy/)。

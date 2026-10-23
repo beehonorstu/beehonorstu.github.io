@@ -28,3 +28,7 @@ ISS Tracker เป็นแอปพลิเคชัน Android สำหร�
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## ความเป็นส่วนตัวและความโปร่งใส
+
+การอนุญาตให้เข้าถึงตำแหน่งเป็นทางเลือก และใช้สำหรับคำนวณเวลาที่อาจมองเห็น ISS ผ่านท้องฟ้า ข้อมูลวงโคจรและการตั้งค่าจะจัดเก็บไว้ในอุปกรณ์ รุ่นที่เผยแพร่ใช้ Google AdMob, Firebase Analytics และ Crashlytics และโหลดเนื้อหาเกี่ยวกับอวกาศผ่านอินเทอร์เน็ต ดูรายละเอียดที่ [นโยบายความเป็นส่วนตัวของ ISS Tracker](/products/isstracker/privacy_policy/)

@@ -28,3 +28,7 @@ ISS Tracker ile uzayı keşfetmekten keyif alacağınızı umuyoruz!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Gizlilik ve şeffaflık
+
+Konum erişimi isteğe bağlıdır ve ISS'nin görülebilir geçişlerini tahmin etmek için kullanılır. Yörünge verileri ve tercihler cihazınızda saklanır. Yayınlanan sürüm ayrıca Google AdMob, Firebase Analytics ve Crashlytics kullanır ve uzay içeriklerini internetten alır. Ayrıntılar için [ISS Tracker Gizlilik Politikasını](/products/isstracker/privacy_policy/) inceleyin.

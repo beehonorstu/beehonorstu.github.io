@@ -28,3 +28,7 @@ Mamy nadzieję, że spodoba Ci się odkrywanie kosmosu z ISS Trackerem!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Prywatność i przejrzystość
+
+Dostęp do lokalizacji jest opcjonalny i służy do przewidywania widocznych przelotów ISS. Dane orbitalne i ustawienia są przechowywane na urządzeniu. Wersja produkcyjna korzysta również z Google AdMob, Firebase Analytics i Crashlytics oraz pobiera treści o kosmosie przez Internet. Szczegóły znajdziesz w [Polityce prywatności ISS Tracker](/products/isstracker/privacy_policy/).

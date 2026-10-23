@@ -28,3 +28,7 @@ ISS Tracker — это Android-приложение для отслеживан�
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Конфиденциальность и прозрачность
+
+Доступ к местоположению необязателен и используется для расчёта видимых пролётов МКС. Орбитальные данные и настройки сохраняются на устройстве. Выпущенная версия также использует Google AdMob, Firebase Analytics и Crashlytics и загружает космические материалы через Интернет. Подробнее — в [Политике конфиденциальности ISS Tracker](/products/isstracker/privacy_policy/).

@@ -28,3 +28,7 @@ ISS Tracker 是一款用于实时追踪国际空间站（ISS）的 Android 应�
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## 隐私说明
+
+定位权限为可选，仅用于计算您所在地的 ISS 可见过境预测。轨道数据和应用偏好保存在设备中；正式版还使用 Google AdMob、Firebase Analytics 和 Crashlytics，并联网获取航天资讯。详情请参阅 [ISS Tracker 隐私政策](/products/isstracker/privacy_policy/)。

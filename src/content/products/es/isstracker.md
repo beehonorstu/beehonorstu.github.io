@@ -28,3 +28,7 @@ ISS Tracker es una aplicación de Android para rastrear la Estación Espacial In
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Privacidad y transparencia
+
+El acceso a la ubicación es opcional y se utiliza para calcular los pasos visibles de la ISS. Los datos orbitales y las preferencias se guardan en tu dispositivo. La versión publicada también utiliza Google AdMob, Firebase Analytics y Crashlytics, y descarga contenido espacial de Internet. Consulta la [política de privacidad de ISS Tracker](/products/isstracker/privacy_policy/).

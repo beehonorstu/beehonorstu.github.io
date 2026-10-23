@@ -28,3 +28,7 @@ Hy vọng bạn sẽ thích khám phá không gian với ISS Tracker!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Quyền riêng tư và minh bạch
+
+Quyền truy cập vị trí là tùy chọn, chỉ dùng để dự đoán các lần ISS bay qua có thể quan sát được. Dữ liệu quỹ đạo và cài đặt được lưu trên thiết bị. Phiên bản phát hành cũng sử dụng Google AdMob, Firebase Analytics và Crashlytics, đồng thời tải nội dung không gian trực tuyến. Xem [Chính sách quyền riêng tư của ISS Tracker](/products/isstracker/privacy_policy/) để biết thêm chi tiết.

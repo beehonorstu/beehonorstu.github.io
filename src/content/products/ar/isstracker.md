@@ -28,3 +28,7 @@ ISS Tracker هو تطبيق Android لتتبع محطة الفضاء الدول�
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## الخصوصية والشفافية
+
+الوصول إلى الموقع اختياري ويُستخدم للتنبؤ بمرور محطة الفضاء الدولية في منطقتك. تُحفظ بيانات المدار والتفضيلات على جهازك. يستخدم إصدار التطبيق المنشور أيضًا Google AdMob وFirebase Analytics وCrashlytics، ويجلب المحتوى الفضائي عبر الإنترنت. للمزيد، راجع [سياسة خصوصية ISS Tracker](/products/isstracker/privacy_policy/).

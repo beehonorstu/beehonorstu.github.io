@@ -28,3 +28,7 @@ Hope you enjoy exploring space with ISS Tracker!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## Privacy and transparency
+
+Location access is optional and used for visible-pass predictions. The app stores orbital data and preferences locally, while its release version also uses Google AdMob, Firebase Analytics and Crashlytics and retrieves space content online. For details, read the **[ISS Tracker Privacy Policy](/products/isstracker/privacy_policy/)**.

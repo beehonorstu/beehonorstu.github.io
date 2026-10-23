@@ -1,7 +1,8 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import Layout from '~/layouts/Layout.astro';
-import { ArrowLeft, Calendar, ExternalLink, ShieldCheck } from 'lucide-react';
+import ISSAppScreenshots from '~/components/ISSAppScreenshots.astro';
+import { ArrowLeft, Calendar, ExternalLink } from 'lucide-react';
 import { defaultLang } from '~/i18n/ui';
 import { isRtl, useTranslations } from '~/i18n/utils';
 import { getRelativeLocaleUrl } from 'astro:i18n';
@@ -87,13 +88,7 @@ const availableLangs = allPosts
                         </a>
                     )}
                 </div>
-                <p class:list={["text-xl text-muted-foreground dark:text-neutral-300", isIssTracker ? "mb-5" : "mb-8"]}>{post.data.description}</p>
-                {isIssTracker && (
-                    <a href="/products/isstracker/privacy_policy/" class="inline-flex items-center gap-2 px-4 py-2.5 mb-8 rounded-xl border border-foreground/10 bg-foreground/5 text-sm font-medium text-primary hover:bg-foreground/10 transition-colors">
-                        <ShieldCheck className="w-4 h-4" />
-                        Privacy Policy
-                    </a>
-                )}
+                <p class="text-xl text-muted-foreground mb-8 dark:text-neutral-300">{post.data.description}</p>
                 
                 <div class="flex items-center gap-6 text-sm text-muted-foreground border-y border-black/10 dark:border-white/10 py-6 mb-12">
                     <div class="flex items-center gap-2 text-muted-foreground">
@@ -109,9 +104,13 @@ const availableLangs = allPosts
                 </div>
             </div>
             
-            <div class="rounded-3xl overflow-hidden border border-black/10 dark:border-white/10 mb-16 shadow-2xl bg-black/5 dark:bg-white/5">
-                 <img width={1020} height={510} src={post.data.heroImage} alt="" class="w-full h-auto" />
-            </div>
+            {isIssTracker ? (
+                <ISSAppScreenshots />
+            ) : (
+                <div class="rounded-3xl overflow-hidden border border-black/10 dark:border-white/10 mb-16 shadow-2xl bg-black/5 dark:bg-white/5">
+                    <img width={1020} height={510} src={post.data.heroImage} alt="" class="w-full h-auto" />
+                </div>
+            )}
 
             <div class="prose dark:prose-invert prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-headings:text-foreground prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl">
  			    <Content />

@@ -28,3 +28,7 @@ ISS Tracker와 함께 우주 탐험을 즐기시길 바랍니다!
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonor.iss_tracker)
+
+## 개인정보 보호 안내
+
+위치 권한은 선택 사항이며 ISS의 가시 통과 예측에 사용됩니다. 궤도 데이터와 앱 설정은 기기에 저장됩니다. 출시 버전에서는 Google AdMob, Firebase Analytics 및 Crashlytics를 사용하고 우주 관련 콘텐츠를 온라인으로 가져옵니다. 자세한 내용은 [ISS Tracker 개인정보 처리방침](/products/isstracker/privacy_policy/)을 확인하세요.
