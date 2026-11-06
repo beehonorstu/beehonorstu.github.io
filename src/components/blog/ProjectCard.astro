@@ -10,14 +10,17 @@ interface Props {
 const { title, description, image, tags, slug } = Astro.props;
 
 const href = slug.startsWith('/') ? slug : `/${slug}`;
+const isBeatExpertArtwork = image === '/images/apps/beat_expert_icon.png';
 ---
 
 <a href={href} class="group block relative overflow-hidden rounded-3xl border border-black/5 dark:border-white/10 bg-black/5 dark:bg-white/5 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2">
-  <div class="aspect-[4/3] w-full overflow-hidden">
-    <img 
-        src={image} 
-        alt={title} 
-        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+  <div class={isBeatExpertArtwork ? 'aspect-[4/3] w-full overflow-hidden bg-[#0c1220]' : 'aspect-[4/3] w-full overflow-hidden'}>
+    <img
+        src={image}
+        alt={title}
+        class={isBeatExpertArtwork
+          ? 'h-[73%] w-auto max-w-[78%] mx-auto mt-5 object-contain transition-transform duration-700 group-hover:scale-105'
+          : 'w-full h-full object-cover transition-transform duration-700 group-hover:scale-110'}
     />
     <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity"></div>
   </div>

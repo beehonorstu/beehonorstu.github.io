@@ -1,39 +1,33 @@
 ---
-title: "DrumPads"
-description: "在 Android 上演奏鼓垫、编辑节奏、记录演奏并导出音乐。Jazz 鼓组永久免费。"
-pubDate: 2026-11-01
-tags: ["Android", "音乐", "节奏创作"]
-heroImage: /images/apps/drumpads_banner.svg
-appIcon: /images/apps/drumpads_icon.svg
+title: "节奏专家 · Beat Expert"
+description: "12 个灵敏鼓垫、16 步节奏编辑器、22 首官方作品，支持自由演奏、录制、混音与 WAV/MP3 导出。"
+pubDate: 2026-11-05
+tags: ["Android", "音乐", "打击垫", "节奏制作"]
+heroImage: /images/apps/beat_expert_icon.png
+appIcon: /images/apps/beat_expert_icon.png
+website: https://play.google.com/store/apps/details?id=com.behonor.drumpads
+link: https://play.google.com/store/apps/details?id=com.behonor.drumpads
 ---
 
-## 把脑海中的节奏变成作品
+## 随时敲出你的节奏
 
-**DrumPads** 将鼓垫演奏与步进编辑器放在一起：随手打出灵感，细调每一个鼓点，再把作品保存在本机。
+**节奏专家** 让你在 Android 手机上轻松演奏和创作鼓点。既可以直接敲击打击垫即兴演奏，也可以从官方节奏入手，或在编辑器中编排自己的作品。
 
-## 演奏、编辑与录制
+界面以演奏和编辑为核心，操作直观；想进一步打磨节奏时，也能细致调整速度、力度和音色。
 
-- **鼓垫演奏：** 五套鼓组，随时探索不同音色。
-- **节奏编辑：** 调整速度、拍号、力度、连击、音高和音轨音量。
-- **从预设开始：** 使用内置节奏作为起点，继续改编。
-- **导入本地伴奏：** 通过系统文件选择器选取音频，一起合奏。
-- **记录演奏：** 录制应用内鼓垫演奏，支持可选预备拍和回放检查。
-- **保存与分享：** 保存可编辑工程、导入 DrumPads 工程，导出 WAV 或 MP3 音频。
+## 主要功能
 
-## Jazz 永久免费
+- **实时打击垫演奏：** 12 个鼓垫，包含底鼓、军鼓、踩镲、通鼓、镲片和辅助打击乐器。
+- **丰富的鼓组音色：** 提供 Jazz、Rock、Hip-hop、African Drums 和 Dance 五种风格。
+- **节奏编辑：** 在步进网格中编排鼓点，自由调整 BPM、拍号、力度、连击、音高与音轨音量。
+- **官方节奏作品：** 浏览并试听 22 首内置节奏，在编辑器中改编，创作自己的版本。
+- **本地音乐伴奏：** 从设备导入音乐，边播放边敲击，也能为作品加入伴奏。
+- **录制和分享：** 记录演奏、保存可编辑工程，并将音频导出为 WAV 或 MP3。
 
-Jazz 鼓组无需观看广告即可使用。你可以主动观看一条激励广告，将另外全部四套鼓组解锁 **24 小时**。
+**使用说明：** 节奏专家专注于打击垫演奏和节奏编排，并非完整的多轨音乐制作软件。步进编辑器按节奏网格排列鼓点，自由演奏录制则保留实际敲击时间。伴奏音乐从本机导入，不提供在线曲库。
 
-激励解锁需要网络连接和可用广告，权益在广告服务确认获得奖励后发放。取消确认或广告报错不会发放解锁。成功解锁后，可在有效期内于本机使用这些音色。
+核心功能无需注册账号。
 
-## 自己掌握音乐与数据
+## 隐私说明
 
-作品、演奏录制和导入音频引用保存在本机。录制功能记录应用内演奏，不调用麦克风，也无需注册 DrumPads 账号。
-
-应用使用 **Google AdMob** 提供可选的激励广告播放，使用 **Google UMP** 管理适用的隐私选择。广告服务可能处理设备标识符、IP 地址、互动及诊断信息；隐私要求处理完成后，应用可能在你主动观看前预加载广告。
-
-请阅读 **[DrumPads 隐私政策](/products/drumpads/privacy_policy/#chinese)**，了解广告数据、隐私选择、系统备份及删除方式。
-
-## 联系我们
-
-问题与建议：[beehonorstu@gmail.com](mailto:beehonorstu@gmail.com)。
+隐私与数据处理详情请参阅 **[Beat Expert Privacy Policy](/products/drumpads/privacy_policy/)**。

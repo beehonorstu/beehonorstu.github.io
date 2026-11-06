@@ -119,7 +119,7 @@ function getAdapter() {
 
 // https://astro.build/config
 export default defineConfig({
-  site: process.env.SITE_URL || 'https://beehonorstu.github.io',
+  site: process.env.SITE_URL || 'https://beehonor-studio.web.app',
   devToolbar: { enabled: false },
   output: 'static',
   image: {

@@ -4,4 +4,4 @@ Disallow:
 User-agent: *
 Disallow:
 
-Sitemap: https://beehonorstu.github.io/sitemap-index.xml
+Sitemap: https://beehonor-studio.web.app/sitemap-index.xml

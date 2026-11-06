@@ -1,39 +1,35 @@
 ---
-title: "DrumPads"
-description: "Play expressive drum pads, build beats in a step editor, record performances, and export your music. Jazz is always free."
-pubDate: 2026-11-01
-tags: ["Android", "Music", "Beat Making"]
-heroImage: /images/apps/drumpads_banner.svg
-appIcon: /images/apps/drumpads_icon.svg
+title: "Beat Expert: Drum Pads"
+description: "Play 12 expressive drum pads, craft beats in a 16-step sequencer, explore 22 built-in rhythms, record performances and export audio."
+pubDate: 2026-11-05
+tags: ["Android", "Music", "Drum Pads", "Beat Maker"]
+heroImage: /images/apps/beat_expert_icon.png
+appIcon: /images/apps/beat_expert_icon.png
+website: https://play.google.com/store/apps/details?id=com.behonor.drumpads
+link: https://play.google.com/store/apps/details?id=com.behonor.drumpads
 ---
 
-## Turn a rhythm into your own beat
+## Make rhythm your own
 
-**DrumPads** brings hands-on drum playing and a step editor together on Android. Tap out an idea, shape it into a pattern, and keep creating with local projects and audio exports.
+**Beat Expert** makes it easy to play and create drum beats on your Android device. Tap the pads to perform in real time, explore ready-made rhythms or build a beat from scratch in the step editor.
 
-## Play, edit and record
+The interface keeps playing and editing straightforward, with more control over timing, dynamics and sound whenever you want to fine-tune a groove.
 
-- **Play drum pads.** Explore five drum kits with touch-controlled performance.
-- **Shape your patterns.** Adjust tempo, time signature, note strength, repeats, pitch and track volume.
-- **Build on a beat.** Start with bundled presets, then make the rhythm your own.
-- **Bring your own backing audio.** Select an audio file from your device and play along.
-- **Keep your performance.** Record pad performances with an optional count-in, then review your take.
-- **Save and share.** Save editable projects, import DrumPads projects, and export WAV or MP3 audio through Android’s sharing and file controls.
+## What you can do
 
-## Jazz is always free
+- **Play drums in real time.** Use 12 responsive pads for kick, snare, hi-hat, toms, cymbals and percussion.
+- **Explore different sounds.** Discover five drum-kit styles, from Jazz and Rock to Hip-hop, African Drums and Dance.
+- **Build your own beats.** Create patterns in a step sequencer, adjust the tempo and time signature, and vary hit strength, repeats, pitch and track volume.
+- **Start with an official rhythm.** Browse 22 built-in beats, listen to their grooves and make your own versions in the editor.
+- **Play along with your music.** Import a backing track from your device and use it while playing or editing.
+- **Record and share your ideas.** Capture pad performances, save editable beat projects, and export audio in WAV or MP3 format.
 
-Use the Jazz kit without watching ads. To explore the other four kits, you can choose to watch one rewarded ad to unlock all four for **24 hours**.
+## Made for hands-on creativity
 
-An internet connection and an available advertisement are required for rewarded access. The unlock is granted when the ad service confirms that the reward was earned. Cancelling the prompt or an ad error does not grant an unlock. Once unlocked, the kits can be used locally until the access period expires.
+Beat Expert focuses on drum performance and beat making rather than full multitrack music production. The step editor places notes on a rhythmic grid, while free pad recording preserves the timing of your performance. Backing music comes from files on your device rather than an online catalog.
 
-## Your music stays under your control
+You do not need an account to use the core features.
 
-Projects, recorded pad performances and imported-audio references are stored on your device. Pad recording captures your performance inside the app and does not use your microphone. No DrumPads account is required.
+## Privacy and transparency
 
-The app uses **Google AdMob** for optional rewarded playback and **Google UMP** for applicable privacy choices. Advertising services can process device identifiers, IP addresses, interactions and diagnostics; ads may be prepared after privacy requirements are resolved, before you choose to watch.
-
-Read the **[DrumPads Privacy Policy](/products/drumpads/privacy_policy/)** for advertising data, consent controls, Android backups and deletion information.
-
-## Get in touch
-
-Questions or feedback? Contact [BeHonor Studio](mailto:beehonorstu@gmail.com).
+For information about privacy and data handling, read the **[Beat Expert Privacy Policy](/products/drumpads/privacy_policy/)**.

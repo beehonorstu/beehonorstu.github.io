@@ -1,83 +1,119 @@
 ---
 import UntranslatedLayout from '~/layouts/UntranslatedLayout.astro';
-import { ArrowLeft, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, ShieldCheck, Database, Megaphone, Activity, ExternalLink } from 'lucide-react';
 ---
-<UntranslatedLayout title="DrumPads Privacy Policy | BeHonor Studio" description="DrumPads privacy policy: local music, rewarded ads, Google AdMob and UMP, privacy choices, backups and deletion. English and Chinese.">
-<article class="pt-32 pb-24"><div class="max-w-4xl mx-auto px-6">
-<a href="/products/drumpads/" class="inline-flex items-center gap-2 text-sm font-medium text-primary mb-6"><ArrowLeft className="w-4 h-4" />Back to DrumPads</a>
-<div class="flex items-center gap-4 mb-8"><img src="/images/apps/drumpads_icon.svg" alt="DrumPads icon" width="64" height="64" class="rounded-2xl" /><span class="text-sm font-semibold uppercase tracking-widest text-primary">BeHonor Studio · Android</span></div>
-<div class="policy prose dark:prose-invert max-w-none text-foreground/80 leading-relaxed prose-headings:font-display prose-headings:text-foreground prose-a:text-primary">
 
-<nav><a href="#english">English</a> · <a href="#chinese">简体中文</a></nav>
-<section id="english" lang="en">
-<h1>DrumPads Privacy Policy</h1>
-<p class="date">Last updated: November 1, 2026</p>
-<p>This policy explains how BeHonor Studio, the developer of DrumPads (“we”) handles information in the Android app DrumPads (package: <code>com.behonor.drumpads</code>). For privacy questions and requests, contact <a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>.</p>
-<h2>1. Music and information on your device</h2>
-<p>DrumPads lets you play drum pads, create beats, import backing audio, record pad performances, and export or share projects and audio. Projects, pad-performance recordings, preferences, imported-file references, and the expiration time of rewarded kit access are stored on your device. Recording a pad performance captures the app’s musical events; the app does not request microphone permission.</p>
-<p>The current version uses bundled music resources and audio you select through Android’s document picker. It does not upload your projects, recordings, or imported audio to a developer-operated server. When you export or share, the files are sent to the app or destination you choose; that service’s privacy policy also applies. Android backup or device-transfer services may back up or restore app data according to your device settings and their own policies. Clearing app data does not delete copies you previously exported, shared, or backed up.</p>
-<h2>2. Google advertising and privacy messages</h2>
-<p>We use Google AdMob through the Google Mobile Ads (GMA Next-Gen) SDK and Google’s User Messaging Platform (UMP). UMP requests privacy information and presents consent or opt-out forms where applicable. The app checks whether UMP permits ad requests before initializing the advertising SDK and requesting ads.</p>
-<p>Google’s advertising SDK may automatically collect and share:</p>
-<ul>
-<li>IP address, which may be used to estimate your approximate location;</li>
-<li>app and advertisement interactions, such as app launches, taps, and video views;</li>
-<li>diagnostic and performance information, such as launch time, hangs, and energy usage;</li>
-<li>device and account identifiers, including Android advertising ID, app set ID, and other account-related identifiers where applicable.</li>
-</ul>
-<p>Google and its advertising partners use this information for advertising, analytics, and fraud prevention. Ad personalization depends on your choices, applicable requirements, and Google’s ad-serving controls. Non-personalized or limited ads may still process data for delivery, measurement, security, or fraud prevention. SDK data is encrypted in transit using TLS. Privacy messaging also processes and stores the choices and signals needed to apply your privacy preferences.</p>
-<p>Learn more: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from apps that use its services</a>, and <a href="https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure">GMA Next-Gen data disclosure</a>.</p>
-<h2>3. Optional rewarded ads and 24-hour access</h2>
-<p>Jazz is available without watching an advertisement. You can choose to watch a rewarded ad to unlock all four other drum kits for 24 hours. Access is granted after the advertising SDK reports an earned reward. The app stores the access expiration time locally. Cancelling the confirmation, an unavailable advertisement, or an advertisement error does not itself grant a reward.</p>
-<p>Ads may be requested and prepared after privacy requirements are resolved, before you choose to watch one. Choosing not to watch an ad does not necessarily prevent every SDK-related network request. Rewarded playback starts only after you choose to watch. Consent to personalized advertising and choosing to watch an ad are separate choices.</p>
-<h2>4. Your privacy choices</h2>
-<p>Where required by UMP, the app’s Settings page provides “Ad privacy choices” to review or change your choices, including withdrawing consent or opting out where offered. You can also reset or delete the advertising ID through Android settings where supported. These controls do not necessarily stop all advertising data processing. Jazz and the app’s local music functions remain available when ads cannot be shown.</p>
-<h2>5. Retention, deletion, and requests</h2><p>If you contact support, we receive your email address and the information you choose to send, and use them to respond and resolve your request. We retain support correspondence as needed for support and legitimate recordkeeping, or as required by law. Please avoid sending unnecessary personal information.</p>
-<p>You can delete local works using the app’s available controls, remove imported audio references, or clear the app’s storage/uninstall it to remove data in its private storage. Back up any works you want to keep first. Original imported files and exported or shared copies must be deleted at their respective locations. Google and other services you choose retain data according to their own policies; clearing DrumPads storage does not delete their records.</p>
-<p>Depending on where you live, you may have rights to access, correct, delete, or restrict the processing of personal data, or to object, withdraw consent, opt out, or complain to a supervisory authority. Contact the email above for requests concerning information we hold. For information held by Google, use Google’s privacy controls and request channels. DrumPads does not require an in-app account.</p>
-<h2>6. Children</h2>
-<p>We do not knowingly collect children’s personal information through a developer-operated account or server. If you believe a child has provided personal information in connection with DrumPads, contact us. Advertising services have their own data practices described above.</p>
-<h2>7. Security and international processing</h2>
-<p>We use Android’s app storage and permission mechanisms for local data. No storage or transmission method guarantees absolute security. Google may process advertising and consent information in countries other than yours under its privacy policies and applicable safeguards.</p>
-<h2>8. Changes and contact</h2>
-<p>We may update this policy as the app or its services change. The date above indicates the latest revision. Privacy contact: <a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>.</p>
-</section>
-<section id="chinese" lang="zh-CN">
-<h1>DrumPads 隐私政策</h1>
-<p class="date">更新日期：2026 年 11 月 1 日</p>
-<p>本政策说明 BeHonor Studio（DrumPads 开发者，以下简称“我们”）如何在 Android 应用 DrumPads（包名：<code>com.behonor.drumpads</code>）中处理信息。隐私问题与相关请求请联系：<a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>。</p>
-<h2>1. 本机音乐与数据</h2>
-<p>DrumPads 支持鼓垫演奏、节奏创作、导入伴奏、记录鼓垫演奏，以及导出或分享工程和音频。作品、演奏录制、偏好设置、导入文件引用和激励解锁到期时间保存在设备上。录制演奏记录的是应用内音乐事件，应用不申请麦克风权限。</p>
-<p>当前版本使用内置音乐资源和你通过 Android 文件选择器选取的音频，不会把工程、演奏录制或导入音频上传到开发者运营的服务器。主动导出或分享时，文件会交给你选择的应用或目标位置，相关服务的隐私政策同时适用。Android 系统备份或设备迁移服务可能根据设备设置及其自身政策备份或恢复应用数据。清除应用数据不会删除已经导出、分享或备份的副本。</p>
-<h2>2. Google 广告与隐私消息</h2>
-<p>我们通过 Google Mobile Ads（GMA Next-Gen）SDK 使用 Google AdMob，并使用 Google User Messaging Platform（UMP）获取隐私状态，在适用情况下展示同意或退出选项。应用在初始化广告 SDK、请求广告之前，先检查 UMP 是否允许请求广告。</p>
-<p>Google 广告 SDK 可能自动收集并共享以下数据：</p>
-<ul>
-<li>IP 地址，可用于推算设备的大致位置；</li>
-<li>应用与广告互动，例如应用启动、点击和视频观看；</li>
-<li>诊断和性能信息，例如启动时间、卡顿和能耗；</li>
-<li>设备与账号标识符，包括 Android 广告 ID、应用集 ID，以及适用情况下与设备已登录账号有关的其他标识符。</li>
-</ul>
-<p>Google 及其广告合作伙伴将这些信息用于广告、分析和防范欺诈。是否提供个性化广告取决于你的选择、适用要求及 Google 广告投放设置。非个性化或受限广告仍可能为投放、衡量、安全或防范欺诈处理数据。SDK 数据通过 TLS 加密传输。隐私消息服务还会处理和保存执行隐私偏好所需的选择及信号。</p>
-<p>详情请参阅：<a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私政策</a>、<a href="https://policies.google.com/technologies/partner-sites?hl=zh-CN">Google 如何使用来自使用其服务的应用的信息</a>、<a href="https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure">GMA Next-Gen 数据披露说明</a>。</p>
-<h2>3. 可选激励广告与 24 小时解锁</h2>
-<p>Jazz 鼓组无需观看广告即可使用。你可主动观看一条激励广告，解锁另外全部四套鼓组 24 小时。应用仅在广告 SDK 返回已获得奖励的回调后发放权益，并在本地保存到期时间。取消确认、广告不可用或广告报错本身不会发放奖励。</p>
-<p>隐私要求处理完成后，应用可能在你选择观看前请求和预加载广告，因此不观看广告并不代表完全不会产生 SDK 网络请求。只有你主动选择观看后才会播放激励广告。是否同意个性化广告与是否选择观看广告是两个独立选择。</p>
-<h2>4. 隐私选择</h2>
-<p>当 UMP 要求提供入口时，应用设置页会显示“广告隐私选项”，以便查看或修改选择，包括界面提供的撤回同意或退出选项。你也可在支持的 Android 系统设置中重置或删除广告 ID。这些控制不一定停止所有广告数据处理。广告无法展示时，Jazz 和本地音乐功能仍然可用。</p>
-<h2>5. 保存、删除与权利请求</h2><p>联系支持时，我们会收到你的邮箱地址及你主动发送的信息，用于回复和处理请求。支持通信会在提供支持、合理留存记录或法律要求所需期间保存。请避免发送不必要的个人信息。</p>
-<p>你可以使用应用提供的操作删除本地作品、移除导入音频引用，或通过清除应用存储、卸载应用删除私有目录中的数据。请先备份需要保留的作品。原始导入文件、导出或分享的副本需要在各自位置删除。Google 及你选择的其他服务按照各自政策保存数据；清除 DrumPads 存储不会删除这些服务的记录。</p>
-<p>根据所在地要求，你可能享有访问、更正、删除、限制处理、反对处理、撤回同意、退出或向监管机构投诉等权利。对于我们持有的信息，请通过上述邮箱提出请求。对于 Google 持有的信息，请使用 Google 的隐私控制与请求渠道。DrumPads 不要求注册应用内账号。</p>
-<h2>6. 儿童信息</h2>
-<p>我们不会通过开发者运营的账号或服务器有意收集儿童个人信息。如果你认为儿童在使用 DrumPads 过程中提供了个人信息，请联系我们。广告服务的数据处理方式见上文。</p>
-<h2>7. 安全与跨境处理</h2>
-<p>我们使用 Android 的应用存储与权限机制处理本地数据，但任何存储或传输方式都无法保证绝对安全。Google 可能依据其隐私政策和适用保障措施，在你所在国家或地区之外处理广告及同意信息。</p>
-<h2>8. 更新与联系</h2>
-<p>应用或服务变化时，我们可能更新本政策，页面上方日期表示最近修订时间。隐私联系邮箱：<a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>。</p>
-</section>
+<UntranslatedLayout
+  title="Beat Expert Privacy Policy | BeHonor Studio"
+  description="Beat Expert privacy policy: local music projects and recordings, Beat Points, Google AdMob and UMP, Firebase Analytics and Crashlytics, backups and deletion."
+>
+  <article class="pt-32 pb-24">
+    <div class="max-w-4xl mx-auto px-6">
+      <header class="mb-10">
+        <a href="/products/drumpads/" class="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors group mb-6">
+          <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+          Back to Beat Expert
+        </a>
+        <div class="flex items-center gap-4 mb-6">
+          <img
+            src="/images/apps/beat_expert_icon.png"
+            alt="Beat Expert app icon"
+            width="64"
+            height="64"
+            class="w-16 h-16 object-contain rounded-2xl shadow-md shrink-0"
+          />
+          <div>
+            <span class="block text-sm font-semibold uppercase tracking-widest text-primary">BeHonor Studio · Android</span>
+            <span class="block text-xs text-muted-foreground mt-1">Beat Expert: Drum Pads</span>
+          </div>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 font-display text-foreground">
+          Privacy Policy for Beat Expert
+        </h1>
+        <p class="text-sm text-muted-foreground">Effective date: November 5, 2026 · Last updated: November 6, 2026</p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.behonor.drumpads"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 mt-6 text-sm text-primary font-medium"
+        >
+          Google Play <ExternalLink className="w-3.5 h-3.5" />
+        </a>
+      </header>
 
-</div>
-<div class="mt-12 pt-8 border-t border-foreground/10 flex gap-3 items-center text-sm text-muted-foreground"><ShieldCheck className="w-5 h-5 shrink-0" /><span>This policy applies to the DrumPads Android app.</span></div>
-</div></article>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+        <div class="p-5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20">
+          <Database className="w-7 h-7 text-emerald-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Beats stay on your device</h2>
+          <p class="text-xs text-muted-foreground mt-2">Your projects, pad recordings, imported-audio references and Beat Points are stored locally.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-indigo-500/10 border border-indigo-500/20">
+          <Megaphone className="w-7 h-7 text-indigo-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Rewarded ads are optional</h2>
+          <p class="text-xs text-muted-foreground mt-2">AdMob and UMP support opt-in rewarded ads and applicable privacy choices.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/20">
+          <Activity className="w-7 h-7 text-amber-500 mb-3" />
+          <h2 class="font-semibold text-foreground text-sm">Third-party data is disclosed</h2>
+          <p class="text-xs text-muted-foreground mt-2">Firebase Analytics and Crashlytics process usage events and technical crash reports.</p>
+        </div>
+      </div>
+
+      <section id="english" lang="en" class="policy-section scroll-mt-32">
+        <div class="prose dark:prose-invert max-w-none text-foreground/80 leading-relaxed prose-headings:font-display prose-headings:text-foreground prose-a:text-primary">
+          <p class="text-lg font-medium text-foreground">
+            BeHonor Studio (“we”, “our”, “us”) provides Beat Expert: Drum Pads, an Android rhythm-creation app
+            (package name: <code>com.behonor.drumpads</code>). This policy applies to Beat Expert only.
+            It describes how local music data, advertising, analytics and crash diagnostics are handled.
+            For questions or privacy requests, contact <a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>.
+          </p>
+          <p>Beat Expert does not require an account. Its drum pads, beat editor and imported backing music primarily work locally, but the released app also uses network-based Google services. We therefore do not claim that the app is entirely offline or that no technical data is collected.</p>
+
+          <h3>1. Music projects, recordings and local storage</h3>
+          <p>Beat Expert lets you play drum pads, compose rhythms, import backing audio, record pad performances, save and share editable projects, and export WAV or MP3 audio. Your works, recorded pad events, app settings and references to imported audio are stored on your Android device. Pad-performance recording captures taps and musical timing inside the app; it does <strong>not</strong> use the microphone or request microphone permission.</p>
+          <p>The app does not operate an account system or a developer-hosted server for uploading your songs, recorded performances or selected audio files. When you choose to export or share, Android transfers the file or content to the destination you select; that destination's privacy practices also apply. Your original imported files remain at their original location unless you remove them separately.</p>
+
+          <h3>2. Beat Points and unlock information</h3>
+          <p>Beat Expert offers a local points balance: a daily check-in earns 10 points, an optional rewarded ad may earn 25 points after the provider confirms the reward, and 100 points unlocks one official beat permanently in this installation. The first two official beats are available without points. Points have no monetary value, cannot be transferred and are not linked to an account.</p>
+          <p>The app stores its points balance, check-in state and unlocked-beat identifiers in a protected local ledger backed by Android Keystore. The ledger is specifically excluded from Android backup and device-transfer rules because its encryption keys cannot be safely restored on another installation. Your points or purchased-with-points beat access may therefore be lost when the app is uninstalled, its data is cleared, or you move to a new device. This system is separate from the temporary drum-kit reward described below.</p>
+
+          <h3>3. AdMob rewarded ads and Google UMP consent</h3>
+          <p>Beat Expert uses <strong>Google AdMob / Google Mobile Ads (GMA Next-Gen)</strong> for optional rewarded video advertisements, along with Google's <strong>User Messaging Platform (UMP)</strong> for consent and privacy choices where applicable. The app checks UMP consent availability before initiating advertising requests. Once allowed, the advertising SDK may initialize and preload an ad before you choose to watch one. Playback of a rewarded advertisement begins only when you explicitly request it.</p>
+          <p>Google's advertising systems may automatically collect or share information including IP address and approximate location inferred from it, device or advertising identifiers (such as Android advertising ID where available), app and ad interactions, impression and click data, device and app properties, and performance or diagnostic information. Google and its partners may use these signals for delivering and measuring advertising, preventing abuse and fraud, or other purposes described in Google's policies. Non-personalized or limited advertising may still involve processing necessary for security, delivery or measurement.</p>
+          <p>Jazz is always free. When you choose to watch a rewarded ad and the SDK confirms a reward, the other four drum kits unlock together for <strong>24 hours</strong>; the expiration time is kept locally. If an ad is unavailable, cancelled or not rewarded, no unlock is granted. Watching ads is optional for the basic app, although rewards themselves require the advertising service and network access.</p>
+          <p>Where UMP requires it, an “Ad privacy choices” entry in Settings lets you review or adjust the options presented, including withdrawal or opt-out where available. You can also manage or delete your Android advertising ID through supported Android settings. Consent to ad personalization is separate from your choice to watch a rewarded ad.</p>
+          <p>See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google's information use in partner apps</a> and <a href="https://developers.google.com/admob/android/next-gen/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Google Mobile Ads data disclosure</a>.</p>
+
+          <h3>4. Firebase Analytics and Crashlytics</h3>
+          <p>The released app includes <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong>. Analytics helps us understand app usage; Crashlytics helps us detect and fix faults. Beat Expert logs named screen visits and limited feature-use events, such as playback, saving a beat, starting a recording, and rewarded-ad events. Some custom events include bounded numeric settings such as BPM or number of bars. We do not intentionally attach project contents, imported audio, song titles or recorded pad-event sequences to custom analytics events.</p>
+          <p>Firebase may automatically process app-instance or installation identifiers, app/OS version, device information, event timing and crash diagnostics. Crashlytics may receive stack traces and technical app state; the app also supplies fixed diagnostic labels such as app brand, build type and current screen. Diagnostic reports should not be assumed to be fully anonymous. Firebase processing is distinct from AdMob processing, even though both are Google services.</p>
+          <p>Firebase Analytics and Crashlytics are enabled in the released app. Beat Expert does not currently offer a separate in-app switch to disable all Firebase collection, and UMP's advertising choices are not a global switch for Firebase telemetry. Learn more: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy and Security</a>.</p>
+
+          <h3>5. Android permissions and sharing</h3>
+          <p>The app uses internet and network-state access for advertising, consent and Firebase services. Basic drum performance and editing do not require microphone, camera, contacts or precise location permissions. Importing backing audio uses Android's document picker, and exporting or sharing uses the file picker or Android sharing mechanisms. The app does not automatically upload your audio projects to BeHonor Studio.</p>
+
+          <h3>6. Retention, backups and deletion</h3>
+          <p>You can delete saved works with the app's available controls and remove imported-audio references. Clearing Beat Expert's Android app data or uninstalling it normally removes its private local records from that device. Copy or export any music you wish to keep first. Removing the app does not remove original audio files outside the app, files you exported, items you shared, or data already held by another service.</p>
+          <p>Android system backup and device transfer are allowed for some app data, depending on your Android settings and backup provider. <strong>The protected Beat Points ledger is excluded from backup and transfer</strong>; other local projects and preferences may be included in backup or transferred and restored. You can review Android backup settings on your device. Third-party advertising, analytics and diagnostic records are handled under their providers' retention practices; clearing the app does not instantly delete those records.</p>
+
+          <h3>7. Support messages and privacy requests</h3>
+          <p>If you contact us, we receive the email address and information you choose to include, which we use to respond to your question or resolve support requests. Depending on your jurisdiction, you may have rights to access, correct, delete, restrict or object to processing, withdraw consent, opt out or lodge a complaint. Contact us about information we control; Google provides separate controls and request channels for information it processes.</p>
+
+          <h3>8. Security and international processing</h3>
+          <p>Local information is handled using Android's storage mechanisms and available device protections. Third-party services may process technical and advertising data in countries other than yours, using their own security measures and policies. No storage or transfer method can guarantee absolute security.</p>
+
+          <h3>9. Children's privacy</h3>
+          <p>Beat Expert is not designed specifically for children under 13. We do not knowingly collect children's personal information through a developer-operated account or music-upload service. If you believe a child has provided information through a support request, contact us. Advertising and Firebase services follow the data practices described above.</p>
+
+          <h3>10. Changes and contact</h3>
+          <p>We may update this policy when our features, service providers or legal requirements change. The date above identifies the latest revision. Privacy and support: <a href="mailto:beehonorstu@gmail.com">beehonorstu@gmail.com</a>.</p>
+        </div>
+      </section>
+
+      <div class="mt-12 pt-8 border-t border-foreground/10 flex gap-3 items-center text-sm text-muted-foreground">
+        <ShieldCheck className="w-5 h-5 text-emerald-500 shrink-0" />
+        <span>This policy applies to the Beat Expert: Drum Pads Android app, not to other BeHonor Studio products.</span>
+      </div>
+    </div>
+  </article>
 </UntranslatedLayout>
-<style>.policy section+section{border-top:1px solid #8090a044;margin-top:4rem;padding-top:2rem}.policy section{scroll-margin-top:7rem}.date{font-size:.9rem;opacity:.8}</style>

@@ -9,7 +9,9 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist && node scripts/preserve-beat-expert-icon.mjs",
+    "sync:beat-expert-icon": "node scripts/sync-beat-expert-icon.mjs",
+    "deploy:firebase:hosting": "firebase deploy --only hosting --project beehonor-studio",
     "build:vercel": "cross-env ADAPTER=vercel astro build && pagefind --site dist",
     "build:netlify": "cross-env ADAPTER=netlify astro build && pagefind --site dist",
     "build:cloudflare": "cross-env ADAPTER=cloudflare astro build && pagefind --site dist",
