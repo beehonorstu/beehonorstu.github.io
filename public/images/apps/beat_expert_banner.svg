@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">Beat Expert — Drum Pads &amp; Beat Maker</title>
+  <desc id="desc">Premium neon rhythm workstation with four bright cyan, magenta, amber and lime pads. Beat Expert for Android.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080D1A"/><stop offset=".58" stop-color="#11182C"/><stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <radialGradient id="blue"><stop stop-color="#04C8FA" stop-opacity=".23"/><stop offset="1" stop-color="#04C8FA" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pink"><stop stop-color="#FC2598" stop-opacity=".19"/><stop offset="1" stop-color="#FC2598" stop-opacity="0"/></radialGradient>
+    <linearGradient id="device" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2E3746"/><stop offset=".25" stop-color="#131B2A"/><stop offset=".8" stop-color="#111827"/><stop offset="1" stop-color="#060911"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8BF8FF"/><stop offset=".16" stop-color="#23D8F9"/><stop offset=".85" stop-color="#00B6EB"/><stop offset="1" stop-color="#0779D7"/></linearGradient>
+    <linearGradient id="magenta" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFC0ED"/><stop offset=".17" stop-color="#FF55BE"/><stop offset=".85" stop-color="#F5229F"/><stop offset="1" stop-color="#A90672"/></linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFF6A0"/><stop offset=".17" stop-color="#FFCD31"/><stop offset=".85" stop-color="#FF9713"/><stop offset="1" stop-color="#D85C08"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#EEFFA2"/><stop offset=".17" stop-color="#AAFF30"/><stop offset=".85" stop-color="#51DB22"/><stop offset="1" stop-color="#258D12"/></linearGradient>
+    <linearGradient id="knob" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#D6DAE0"/><stop offset=".34" stop-color="#444E62"/><stop offset=".7" stop-color="#161D2A"/><stop offset="1" stop-color="#798395"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="device-shadow" x="-30%" y="-40%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="23" stdDeviation="27" flood-color="#000" flood-opacity=".6"/>
+    </filter>
+    <filter id="pad-glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7"/></filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#A6B5DA" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#grid)"/>
+  <ellipse cx="875" cy="290" rx="420" ry="290" fill="url(#blue)"/>
+  <ellipse cx="1090" cy="260" rx="350" ry="280" fill="url(#pink)"/>
+  <path d="M76 105H256" stroke="#44C9F4" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="78" y="148" fill="#69DBF4" font-size="18" font-weight="700" letter-spacing="4.5">BEHONOR STUDIO · ANDROID</text>
+    <text x="70" y="268" fill="#FFFFFF" font-size="84" font-weight="800" letter-spacing="-2">BEAT</text>
+    <text x="70" y="359" fill="#FFFFFF" font-size="84" font-weight="800" letter-spacing="-2">EXPERT</text>
+    <text x="77" y="409" fill="#CED9EC" font-size="27" font-weight="500">Drum Pads &amp; Beat Maker</text>
+    <text x="78" y="477" fill="#95A8C9" font-size="19" font-weight="600" letter-spacing="1.2">12 PADS   ·   22 OFFICIAL BEATS   ·   RECORD &amp; REMIX</text>
+    <text x="78" y="532" fill="#82EDCA" font-size="16" font-weight="700" letter-spacing="2.5">JAZZ ALWAYS FREE</text>
+  </g>
+  <g filter="url(#device-shadow)">
+    <rect x="735" y="73" width="411" height="453" rx="69" fill="url(#device)" stroke="#657083" stroke-opacity=".85" stroke-width="3"/>
+    <rect x="748" y="86" width="385" height="428" rx="60" fill="none" stroke="#A4B2CE" stroke-opacity=".18"/>
+    <circle cx="795" cy="137" r="31" fill="#090E17" stroke="#19D5FC" stroke-width="5"/>
+    <circle cx="795" cy="137" r="25" fill="url(#knob)"/>
+    <circle cx="1084" cy="137" r="31" fill="#090E17" stroke="#FA3BAD" stroke-width="5"/>
+    <circle cx="1084" cy="137" r="25" fill="url(#knob)"/>
+    <rect x="848" y="112" width="185" height="44" rx="17" fill="#060E1A" stroke="#47536B" stroke-width="2"/>
+    <rect x="869" y="126" width="17" height="17" rx="5" fill="#2BE9FC"/>
+    <rect x="912" y="126" width="17" height="17" rx="5" fill="#FB3CAF"/>
+    <rect x="955" y="126" width="17" height="17" rx="5" fill="#FFBC35"/>
+    <rect x="998" y="126" width="17" height="17" rx="5" fill="#8DF43A"/>
+    <g transform="translate(788 191)">
+      <g fill="#06101B" stroke="#060A13" stroke-width="6">
+        <rect x="-5" y="-5" width="151" height="151" rx="27"/>
+        <rect x="157" y="-5" width="151" height="151" rx="27"/>
+        <rect x="-5" y="156" width="151" height="151" rx="27"/>
+        <rect x="157" y="156" width="151" height="151" rx="27"/>
+      </g>
+      <g opacity=".7" filter="url(#pad-glow)">
+        <rect x="8" y="8" width="123" height="123" rx="18" fill="#00D0FF"/>
+        <rect x="170" y="8" width="123" height="123" rx="18" fill="#F524B5"/>
+        <rect x="8" y="169" width="123" height="123" rx="18" fill="#FFC61B"/>
+        <rect x="170" y="169" width="123" height="123" rx="18" fill="#65F423"/>
+      </g>
+      <rect width="136" height="136" rx="23" fill="url(#cyan)" stroke="#8EFAFF" stroke-width="4"/>
+      <rect x="162" width="136" height="136" rx="23" fill="url(#magenta)" stroke="#FFC6EA" stroke-width="4"/>
+      <rect y="161" width="136" height="136" rx="23" fill="url(#amber)" stroke="#FFEC9A" stroke-width="4"/>
+      <rect x="162" y="161" width="136" height="136" rx="23" fill="url(#lime)" stroke="#E1FF9A" stroke-width="4"/>
+      <g fill="none" stroke="#FFFFFF" stroke-opacity=".23" stroke-width="2">
+        <rect x="12" y="12" width="112" height="112" rx="18"/>
+        <rect x="174" y="12" width="112" height="112" rx="18"/>
+        <rect x="12" y="173" width="112" height="112" rx="18"/>
+        <rect x="174" y="173" width="112" height="112" rx="18"/>
+      </g>
+    </g>
+  </g>
+</svg>
