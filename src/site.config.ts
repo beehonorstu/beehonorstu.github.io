@@ -35,7 +35,7 @@ export const siteConfig = {
     alwaysLoad: false, // Set to true to bypass cookie consent check
     vendors: {
       googleAnalytics: {
-        id: 'G-K9D7ESRZFV',
+        id: 'G-HDN4RFN3ER',
         enabled: true,
       },
       rybbit: {
