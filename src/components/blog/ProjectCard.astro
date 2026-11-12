@@ -10,10 +10,11 @@ interface Props {
 const { title, description, image, tags, slug } = Astro.props;
 
 const href = slug.startsWith('/') ? slug : `/${slug}`;
+const productId = href.split('/').filter(Boolean).at(-1) || 'unknown';
 const isBeatExpertArtwork = image === '/images/apps/beat_expert_icon.png';
 ---
 
-<a href={href} class="group block relative overflow-hidden rounded-3xl border border-black/5 dark:border-white/10 bg-black/5 dark:bg-white/5 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2">
+<a href={href} data-product-id={productId} data-analytics-action="select_product" data-analytics-location="products_grid" class="group block relative overflow-hidden rounded-3xl border border-black/5 dark:border-white/10 bg-black/5 dark:bg-white/5 hover:border-primary/50 transition-all duration-500 hover:-translate-y-2">
   <div class={isBeatExpertArtwork ? 'aspect-[4/3] w-full overflow-hidden bg-[#0c1220]' : 'aspect-[4/3] w-full overflow-hidden'}>
     <img
         src={image}

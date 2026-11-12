@@ -21,6 +21,8 @@ const { vendors, alwaysLoad } = siteConfig.analytics;
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', vendors.googleAnalytics.id);
+        // Event dispatch below uses this initialized queue only after consent.
+        window.siteAnalyticsReady = true;
     }
 
     // Rybbit Analytics
@@ -41,7 +43,7 @@ const { vendors, alwaysLoad } = siteConfig.analytics;
         document.head.appendChild(umamiScript);
     }
     
-    console.log('Analytics loaded');
+    // Analytics is intentionally silent in production.
   };
 
   // Check for force load or existing consent
@@ -52,5 +54,70 @@ const { vendors, alwaysLoad } = siteConfig.analytics;
   // Listen for new consent
   window.addEventListener('consent:granted', () => {
     loadScripts();
+  });
+
+  // Product IDs are stable across translated page titles and locales.
+  const productFromPath = (path) => {
+    const parts = path.split('/').filter(Boolean);
+    const idx = parts.indexOf('products');
+    return idx >= 0 && parts[idx + 1] && parts[idx + 1] !== 'privacy_policy'
+      ? parts[idx + 1]
+      : null;
+  };
+  const pageLanguage = () => document.documentElement.lang || 'en';
+  const sendEvent = (name, params) => {
+    if (localStorage.getItem('cookie_consent') !== 'accepted' || !window.siteAnalyticsReady) return;
+    window.dataLayer.push(['event', name, params]);
+  };
+
+  // Page view is already collected by gtag config; this is the product funnel step.
+  const currentProduct = productFromPath(window.location.pathname);
+  let productViewTracked = false;
+  const recordProductView = () => {
+    if (productViewTracked || !currentProduct || window.location.pathname.includes('/privacy_policy')) return;
+    if (localStorage.getItem('cookie_consent') !== 'accepted' || !window.siteAnalyticsReady) return;
+    productViewTracked = true;
+    sendEvent('view_item', {
+      items: [{ item_id: currentProduct, item_name: currentProduct, item_category: 'app' }],
+      page_language: pageLanguage()
+    });
+  };
+  recordProductView();
+  window.addEventListener('consent:granted', recordProductView);
+
+  // One delegated click handler covers all languages, Markdown links and future product pages.
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+    const element = target.closest('a, [data-product-id]');
+    if (!element) return;
+    const productId = element.getAttribute('data-product-id');
+    if (productId && element.getAttribute('data-analytics-action') === 'select_product') {
+      sendEvent('select_item', {
+        item_list_name: element.getAttribute('data-analytics-location') || 'products',
+        items: [{ item_id: productId, item_name: productId, item_category: 'app' }],
+        page_language: pageLanguage()
+      });
+      return;
+    }
+    if (!(element instanceof HTMLAnchorElement)) return;
+    const href = element.getAttribute('href') || '';
+    if (href.startsWith('mailto:')) {
+      sendEvent('contact_click', {
+        contact_method: 'email',
+        page_language: pageLanguage()
+      });
+      return;
+    }
+    let url;
+    try { url = new URL(href, window.location.href); } catch { return; }
+    if (url.hostname !== 'play.google.com' && url.hostname !== 'apps.apple.com') return;
+    const store = url.hostname === 'play.google.com' ? 'google_play' : 'app_store';
+    sendEvent('app_store_click', {
+      product_id: productFromPath(window.location.pathname) || element.getAttribute('data-product-id') || 'developer_catalog',
+      store,
+      link_location: element.getAttribute('data-analytics-location') || (currentProduct ? 'product_detail' : 'site'),
+      page_language: pageLanguage()
+    });
   });
 </script>

@@ -78,6 +78,8 @@ const availableLangs = allPosts
                     {post.data.link && (
                         <a 
                             href={post.data.link} 
+                            data-product-id={productSlug}
+                            data-analytics-location="product_header"
                             target="_blank" 
                             rel="noopener noreferrer"
                             class="inline-flex items-center gap-2 bg-[#01875F] hover:bg-[#01704D] text-white px-4 py-2 rounded-full font-medium transition-colors text-sm shrink-0"

@@ -16,13 +16,13 @@ const { lang = defaultLang } = Astro.params;
 const t = useTranslations(lang);
 ---
 
-<Layout title="About Us - BeHonor Studio" description="Learn about our mission.">
+<Layout title="About BeHonor Studio" description={t['about.mission']}>
 <PageHeader title={t['about.title']} description={t['about.mission']} />
 
   <ContentSection
     title={t['about.story.title']}
-    image="/images/apps/logiccraft_banner.webp"
-    imageAlt="BeHonor Studio Applications"
+    image="/images/apps/isstracker_banner.webp"
+    imageAlt="ISS Tracker — International Space Station tracking app"
   >
     <Text>{t['about.story.p1']}</Text>
     <Text>{t['about.story.p2']}</Text>

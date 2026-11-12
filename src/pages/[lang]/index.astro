@@ -23,7 +23,7 @@ const chargeExpertName = getChargeExpertName(lang);
 
 ---
 
-<Layout title="BeHonor Studio | Apps & Games" description={`BeHonor Studio - Creator of ${chargeExpertName}, Math Puzzle, Flick Wand, and ISS Tracker.`}>
+<Layout title="BeHonor Studio | Apps & Games" description={`BeHonor Studio - Creator of ISS Tracker, Beat Expert, ${chargeExpertName}, and Math Puzzle.`}>
     <Schema item={{
             "@context": "https://schema.org",
             "@type": "Organization",
@@ -44,60 +44,64 @@ const chargeExpertName = getChargeExpertName(lang);
         id="apps" 
     >
         <BentoGrid title="Featured Apps">
-            <!-- Large Item: Math Puzzle -->
-            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/mathpuzzle')}'`}>
-                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10 transition-opacity"></div>
-                <img src="/images/apps/mathpuzzle_banner.webp" alt="Math Puzzle" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" style="object-position: center 28%;" />
-                
+            <!-- Lead product: ISS Tracker -->
+            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" data-product-id="isstracker" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/isstracker')}'`}>
+                <div class="absolute inset-0 bg-[#080e18]"></div>
+                <img src="/images/apps/isstracker_banner.webp" alt="ISS Tracker orbital tracking" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+
                 <div class="relative z-20 h-full flex flex-col justify-end">
                     <div class="flex items-center gap-4 mb-4">
-                        <img src="/images/apps/mathpuzzle_icon.webp" alt="Math Puzzle Icon" class="w-16 h-16 rounded-xl shadow-lg border border-white/10" />
-                        <h3 class="text-3xl font-bold text-white">Math Puzzle</h3>
+                        <img src="/images/apps/isstracker_icon.webp" alt="ISS Tracker Icon" class="w-16 h-16 rounded-xl shadow-lg border border-white/10" />
+                        <h3 class="text-3xl md:text-4xl font-bold text-white">ISS Tracker</h3>
                     </div>
-                    <p class="text-white/80 text-lg max-w-xl">Solve cross-number equation puzzles with a relaxing mix of arithmetic, logic, and observation.</p>
+                    <p class="text-white/85 text-lg max-w-xl">Follow the International Space Station in real time, predict overhead passes, and watch live views from orbit.</p>
                 </div>
             </BentoItem>
 
-            <!-- Medium Item: ISS Tracker -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/isstracker')}'`}>
-                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                <img src="/images/apps/isstracker_banner.webp" alt="ISS Tracker" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
-                
+            <!-- Right, top: Beat Expert -->
+            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="drumpads" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/drumpads')}'`}>
+                <div class="absolute inset-0 bg-gradient-to-br from-[#13203a] via-[#111426] to-[#090d18]"></div>
+                <div class="absolute -top-12 -right-12 h-52 w-52 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
+                <img src="/images/apps/beat_expert_icon.png" alt="Beat Expert drum pads" class="absolute right-2 top-1 h-[78%] w-auto max-w-[90%] object-contain opacity-85 transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/35 to-transparent"></div>
+
                 <div class="relative z-20 h-full flex flex-col justify-end">
                     <div class="flex items-center gap-3 mb-2">
-                        <img src="/images/apps/isstracker_icon.webp" alt="ISS Tracker Icon" class="w-12 h-12 rounded-xl shadow-lg" />
-                        <h3 class="text-xl font-bold text-white">ISS Tracker</h3>
+                        <img src="/images/apps/beat_expert_icon.png" alt="Beat Expert Icon" class="w-12 h-12 rounded-xl shadow-lg" />
+                        <h3 class="text-xl font-bold text-white">Beat Expert</h3>
                     </div>
-                    <p class="text-white/80 text-sm">Track the International Space Station in real-time. Know exactly when it passes overhead.</p>
+                    <p class="text-white/85 text-sm">Play drum pads, make your own beats, and record your performances.</p>
                 </div>
             </BentoItem>
 
-            <!-- Medium Item: Flick Wand -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/flickwand')}'`}>
-                <div class="absolute bottom-0 left-0 w-full h-2/3 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
-                <img src="/images/apps/flickwand_banner.webp" alt="Flick Wand" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" />
-                
-                <div class="relative z-20 h-full flex flex-col justify-end">
-                    <div class="flex items-center gap-3 mb-2">
-                        <img src="/images/apps/flickwand_icon.webp" alt="Flick Wand Icon" class="w-12 h-12 rounded-xl shadow-lg" />
-                        <h3 class="text-xl font-bold text-white">Flick Wand</h3>
-                    </div>
-                    <p class="text-white/80 text-sm">Automate and launch actions instantly with intuitive gestures. Your daily tasks made highly efficient.</p>
-                </div>
-            </BentoItem>
-
-            <!-- Wide Item: Charge Expert charging monitor -->
-            <BentoItem class="md:col-span-2 group cursor-pointer min-h-[300px]" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/phonebattery')}'`}>
+            <!-- Right, bottom: Charge Expert -->
+            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="phonebattery" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/phonebattery')}'`}>
                 <div class="absolute inset-0 bg-[#0d1916]"></div>
-                <img src="https://cdn.sanity.io/images/9urti28l/production/f6baa6337fdad0626d0efd7cd4d7003c63e798c8-1748x900.png" alt={`${chargeExpertName} charging monitor`} loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-[1.035] transition-transform duration-700" />
-                <div class="absolute bottom-0 left-0 w-full h-3/4 bg-gradient-to-t from-black/85 via-black/50 to-transparent z-10"></div>
+                <img src="https://cdn.sanity.io/images/9urti28l/production/f6baa6337fdad0626d0efd7cd4d7003c63e798c8-1748x900.png" alt={`${chargeExpertName} charging monitor`} loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-80 transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
 
                 <div class="relative z-20 h-full flex flex-col justify-end">
                     <div class="flex items-center gap-3 mb-2">
                         <img src="/images/apps/charge_expert_icon.svg" alt={`${chargeExpertName} Icon`} class="w-12 h-12 rounded-xl shadow-lg" />
-                        <h3 class="text-2xl font-bold text-white">{chargeExpertName}</h3>
+                        <h3 class="text-xl font-bold text-white">{chargeExpertName}</h3>
                     </div>
-                    <p class="text-white/80 text-sm max-w-lg">Plan charging, track live battery power and temperature, and get timely reminders.</p>
+                    <p class="text-white/85 text-sm">Plan charging, track live battery power and temperature, and get timely reminders.</p>
+                </div>
+            </BentoItem>
+
+            <!-- Second row: Math Puzzle -->
+            <BentoItem class="md:col-span-2 group cursor-pointer min-h-[300px]" data-product-id="mathpuzzle" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/mathpuzzle')}'`}>
+                <div class="absolute inset-0 bg-[#0f1621]"></div>
+                <img src="/images/apps/mathpuzzle_banner.webp" alt="Math Puzzle" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-75 transition-transform duration-700 group-hover:scale-105" style="object-position: center 28%;" />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+
+                <div class="relative z-20 h-full flex flex-col justify-end">
+                    <div class="flex items-center gap-3 mb-2">
+                        <img src="/images/apps/mathpuzzle_icon.webp" alt="Math Puzzle Icon" class="w-12 h-12 rounded-xl shadow-lg border border-white/10" />
+                        <h3 class="text-2xl font-bold text-white">Math Puzzle</h3>
+                    </div>
+                    <p class="text-white/85 text-sm max-w-lg">Solve cross-number equation puzzles with a relaxing mix of arithmetic, logic, and observation.</p>
                 </div>
             </BentoItem>
 
