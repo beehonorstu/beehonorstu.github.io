@@ -1,6 +1,8 @@
 ---
 import { type CollectionEntry, getCollection, render } from 'astro:content';
 import Layout from '~/layouts/Layout.astro';
+import AppSchema from '~/components/layout/AppSchema.astro';
+import { appCatalog, archivedAppSlugs, englishSeoTitles } from '~/lib/appCatalog';
 import ISSAppScreenshots from '~/components/ISSAppScreenshots.astro';
 import { ArrowLeft, Calendar } from 'lucide-react';
 import { defaultLang } from '~/i18n/ui';
@@ -36,6 +38,10 @@ const currentBaseSlug = post.id.split('/').slice(1).join('/');
 const productSlug = currentBaseSlug.replace(/\.(md|mdx)$/, '');
 const isIssTracker = productSlug === 'isstracker';
 const isBeatExpert = productSlug === 'drumpads';
+const isArchived = archivedAppSlugs.has(productSlug);
+const productMeta = appCatalog[productSlug];
+const storeUrl = isArchived ? undefined : (post.data.link || productMeta?.storeUrl);
+const seoTitle = `${lang === defaultLang ? (englishSeoTitles[productSlug] || post.data.title) : post.data.title} | BeHonor Studio`;
 const availableLangs = allPosts
     .filter(p => p.id.endsWith(currentBaseSlug))
     .map(p => p.id.split('/')[0]);
@@ -43,13 +49,17 @@ const availableLangs = allPosts
 ---
 
 <Layout 
-  title={post.data.title} 
+  title={seoTitle}
+  breadcrumbLabel={post.data.title}
   description={post.data.description}
   image={post.data.heroImage}
-  noindex={post.data.noindex}
+  noindex={post.data.noindex || isArchived}
   nofollow={post.data.nofollow}
   availableLangs={availableLangs}
 >
+    {!isArchived && productMeta && !post.data.noindex && (
+      <AppSchema slot="head" slug={productSlug} name={post.data.title} description={post.data.description} image={post.data.appIcon || post.data.heroImage} />
+    )}
 	<article class="pt-32 pb-16">
         <div class="max-w-4xl mx-auto px-6">
             <div class="mb-8">
@@ -76,9 +86,9 @@ const availableLangs = allPosts
                         )}
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold break-words">{post.data.title}</h1>
                     </div>
-                    {post.data.link && (
+                    {storeUrl && (
                         <a 
-                            href={post.data.link} 
+                            href={storeUrl}
                             data-product-id={productSlug}
                             data-analytics-location="product_header"
                             target="_blank" 

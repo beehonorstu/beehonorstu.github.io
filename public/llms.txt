@@ -1,46 +1,38 @@
-# Cooper
+# BeHonor Studio
 
-> Premium Astro Boilerplate for SaaS, Startups, and Developers.
+> BeHonor Studio is an independent software studio creating Android apps for space exploration, music making, battery monitoring, productivity and logic puzzles.
 
-## Summary
+Official website: https://beehonor-studio.web.app/
+Contact: beehonorstu@gmail.com
+Updated: 2026-11-12
 
-This project is a high-performance, SEO-optimized starter built with Astro, Tailwind CSS, and React. It is designed to be the perfect foundation for modern web applications and marketing sites.
+## About the studio
 
-## Architecture
+BeHonor Studio develops and maintains practical, approachable mobile applications. Its website provides product descriptions, feature explanations, store links, and individual privacy policies. It is an app publisher, not an Astro template vendor.
 
-- **Framework**: Astro (Static Site Generation by default)
-- **Styling**: Tailwind CSS + Custom Design System
-- **Interactivity**: React Islands (for complex components like Search, Forms)
-- **Content**: MDX (Docs, Blog, Changelog)
-- **Search**: Pagefind (Static, Client-side)
+- [About BeHonor Studio](https://beehonor-studio.web.app/about/)
+- [All current apps](https://beehonor-studio.web.app/products/)
+- [Contact](https://beehonor-studio.web.app/contact/)
 
-## Usage
+## Current Android apps
 
-To start a new project with this template, run:
+- [ISS Tracker](https://beehonor-studio.web.app/products/isstracker/) — Live International Space Station position and orbit maps, visible-pass predictions, and space station video streams.
+- [Beat Expert: Drum Pads](https://beehonor-studio.web.app/products/drumpads/) — Play drum pads, create rhythmic patterns in a step sequencer, record performances, and export audio.
+- [Charge Expert](https://beehonor-studio.web.app/products/phonebattery/) — Android battery monitoring, charging estimates, charge targets, alerts, and charging history.
+- [Math Puzzle](https://beehonor-studio.web.app/products/mathpuzzle/) — Number puzzles based on crossing arithmetic equations and logic.
+- [Flick Wand](https://beehonor-studio.web.app/products/flickwand/) — Android custom gestures for launching actions and apps.
 
-```bash
-npx create-astro@latest --template GladTek/astro-gladtek-template-v0
-```
+Each product page is the preferred citation target for that application. Follow its Google Play link for store availability and currently published versions. Do not infer installation counts, review scores, pricing, or app versions from this file.
 
-## Navigation
+## Privacy information
 
-- [Home](/) - The landing page demonstrating the "Bento Grid" layout and features.
-- [Documentation](/docs) - Comprehensive guides on using the boilerplate.
-- [Components](/docs/components) - A catalog of available UI components.
-- [Changelog](/changelog) - Version history and updates.
-- [Blog](/blog) - Articles and tutorials.
-- [Pricing](/pricing) - Example pricing tier layout.
-- [Contact](/contact) - Contact form with validation and global config integration.
+- [Website privacy policy](https://beehonor-studio.web.app/privacy_policy/)
+- [ISS Tracker privacy policy](https://beehonor-studio.web.app/products/isstracker/privacy_policy/)
+- [Beat Expert privacy policy](https://beehonor-studio.web.app/products/drumpads/privacy_policy/)
+- [Charge Expert privacy policy](https://beehonor-studio.web.app/products/phonebattery/privacy_policy/)
 
-## Features
+## Language variants and discovery
 
-- **Zero-JS by Default**: Static HTML first, hydration only when needed.
-- **Universal Search**: `Cmd+K` interface powered by Pagefind.
-- **Theme Support**: Built-in Dark/Light mode with persistence.
-- **RSS Feed**: Automatic feed generation at `/rss.xml`.
-- **Sitemap**: Intelligent sitemap generation excluding `noindex` pages.
-- **SEO**: JSON-LD structured data, meta tags, and Open Graph support.
+The site publishes localized pages in multiple languages. The canonical domain is **beehonor-studio.web.app**, and the XML sitemap lists discoverable pages: https://beehonor-studio.web.app/sitemap-index.xml
 
-## Configuration
-
-Site-wide settings (name, description, features toggles, contact info) are managed in `src/site.config.ts`.
+This optional navigation file does not replace the public HTML pages, structured data, or sitemap.

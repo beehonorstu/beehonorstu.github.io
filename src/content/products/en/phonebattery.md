@@ -30,6 +30,20 @@ Charge Expert **estimates and notifies**; it cannot physically stop charging or 
 
 You do not need to create an account to use the app's core charging tools.
 
+## Common questions about Charge Expert
+
+### Can Charge Expert stop my phone charging at 80%?
+
+No. The app can alert you when your chosen battery level is reached, but it cannot physically stop the charger or control the phone's charging circuit.
+
+### Why does the estimated charging time change?
+
+Charging speed varies with battery level, temperature, device activity and charger behavior. Charge Expert updates its estimate using observed charging information, so the expected finish time may change during a session.
+
+### Does the displayed power match the charger's advertised wattage?
+
+Not necessarily. The app reports battery-side measurements or estimates. Actual adapter output and conversion losses can differ.
+
 ## Privacy and transparency
 
 Charging measurements, charging-session history and your settings are handled in the app's local storage. The release app also uses Google AdMob for banner advertising and Firebase services for usage analytics and crash diagnostics. Those services may process technical and advertising-related information. We do not intentionally include charging measurements or user-entered charger names in custom analytics events.

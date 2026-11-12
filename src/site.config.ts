@@ -2,7 +2,8 @@ import type { Facebook } from "lucide-react";
 
 export const siteConfig = {
   name: 'BeHonor Studio',
-  description: 'Creator of Charge Expert, Math Puzzle, Flick Wand, and ISS Tracker.',
+  description: 'Independent Android app studio behind ISS Tracker, Beat Expert, Charge Expert, Math Puzzle and Flick Wand.',
+  publisherLogoUrl: 'https://play-lh.googleusercontent.com/MRSqPcyaLlYxqN45WQKg_ySHOeXimarn4vt3CyGJ2s5TL39PutxRPn_ypA4daars8DE=w512',
   logo: undefined,
   ogImage: '/og-image.webp',
   primaryColor: '#00008B', // Default primary color

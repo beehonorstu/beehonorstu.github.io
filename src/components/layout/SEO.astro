@@ -1,4 +1,8 @@
 ---
+import { siteConfig } from '~/site.config';
+import { languages, defaultLang } from '~/i18n/ui';
+import { canonicalFor, languageTag, localizedUrl, pathWithoutLocale } from '~/lib/seo';
+
 interface Props {
   title: string;
   description: string;
@@ -6,14 +10,38 @@ interface Props {
   article?: boolean;
   noindex?: boolean;
   nofollow?: boolean;
+  availableLangs?: string[];
 }
 
-const { title, description, image, article = false, noindex = false, nofollow = false } = Astro.props;
-import { siteConfig } from '~/site.config';
-const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+const {
+  title,
+  description,
+  image,
+  article = false,
+  noindex = false,
+  nofollow = false,
+  availableLangs
+} = Astro.props;
 
-const path = Astro.url.pathname.replace(/\/$/, '') || '/home';
-const ogImageUrl = image || siteConfig.ogImage;
+const currentLocale = Astro.params.lang || defaultLang;
+const canonicalURL = canonicalFor(Astro.url.pathname, Astro.site!);
+const basePath = pathWithoutLocale(Astro.url.pathname, currentLocale);
+const ogImageUrl = new URL(image || siteConfig.ogImage, Astro.site).toString();
+
+// Only these routes have a translation in every supported locale.
+// Product details explicitly pass their actual available locale list.
+// Legal pages and product privacy policies are intentionally single-language.
+const fullyTranslatedPaths = new Set(['/', '/about/', '/contact/', '/products/']);
+const offeredLocales = availableLangs ??
+  (fullyTranslatedPaths.has(basePath) ? Object.keys(languages) : []);
+const uniqueLocales = Array.from(new Set(offeredLocales))
+  .filter((locale) => locale in languages);
+const alternates = !noindex && uniqueLocales.length > 1
+  ? uniqueLocales.map((locale) => ({
+      hreflang: languageTag(locale),
+      href: localizedUrl(basePath, locale, Astro.site!)
+    }))
+  : [];
 
 const robots = [
   noindex ? 'noindex' : 'index',
@@ -21,36 +49,32 @@ const robots = [
 ].join(', ');
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" type="image/png" href={siteConfig.logo?.src || '/favicon.svg'} />
-<link rel="apple-touch-icon" href={siteConfig.logo?.src || '/favicon.svg'} />
 <meta name="generator" content={Astro.generator} />
 
-<!-- Robots -->
 <meta name="robots" content={robots} />
-
-<!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
+{alternates.map(({ hreflang, href }) => (
+  <link rel="alternate" hreflang={hreflang} href={href} />
+))}
+{alternates.length > 0 && (
+  <link rel="alternate" hreflang="x-default" href={localizedUrl(basePath, defaultLang, Astro.site!)} />
+)}
 
-<!-- Primary Meta Tags -->
 <title>{title}</title>
-<meta name="title" content={title} />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
 <meta property="og:type" content={article ? 'article' : 'website'} />
-<meta property="og:url" content={Astro.url.toString()} />
+<meta property="og:site_name" content={siteConfig.name} />
+<meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(ogImageUrl, Astro.url).toString()} />
-{siteConfig.logo && <meta property="og:logo" content={new URL(siteConfig.logo.src, Astro.url).toString()} />}
+<meta property="og:image" content={ogImageUrl} />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content={Astro.url.toString()} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(ogImageUrl, Astro.url).toString()} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content={canonicalURL} />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageUrl} />

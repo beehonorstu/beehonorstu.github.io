@@ -2,7 +2,6 @@
 import { defaultLang } from '~/i18n/ui';
 import { useTranslations } from '~/i18n/utils';
 import Layout from '~/layouts/Layout.astro';
-import Schema from '~/components/layout/Schema.astro';
 import Hero from '~/components/sections/Hero.astro';
 import Section from '~/components/layout/Section.astro';
 import BentoGrid from '~/components/sections/BentoGrid.astro';
@@ -14,29 +13,22 @@ const lang = defaultLang;
 const t = useTranslations(lang);
 ---
 
-<Layout title="BeHonor Studio | Apps & Games" description="BeHonor Studio - Creator of ISS Tracker, Beat Expert, Charge Expert, and Math Puzzle.">
-    <Schema item={{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "BeHonor Studio",
-            "url": Astro.site,
-            "logo": "https://play-lh.googleusercontent.com/MRSqPcyaLlYxqN45WQKg_ySHOeXimarn4vt3CyGJ2s5TL39PutxRPn_ypA4daars8DE=w512"
-        }} />
-	
+<Layout title="BeHonor Studio | Independent Android Apps" description="Explore ISS Tracker, Beat Expert, Charge Expert and Math Puzzle from BeHonor Studio, an independent Android app studio.">
     <Hero 
-        title="Welcome to"
+        badge={t['hero.badge']}
+        title={t['hero.title']}
         highlight="BeHonor Studio"
-        description="Building high-quality applications that bring fun, focus, and discovery to your everyday life."
-        primaryCta={{ text: "View Our Apps on Google Play", href: "https://play.google.com/store/apps/developer?id=BeHonor+Studio" }}
+        description={t['about.mission']}
+        primaryCta={{ text: t['home.store.cta'], href: "https://play.google.com/store/apps/developer?id=BeHonor+Studio" }}
     />
     
     <Section 
         class="py-0 overflow-visible mb-24"
         id="apps" 
     >
-        <BentoGrid title="Featured Apps">
+        <BentoGrid title={t['home.featured.title']}>
             <!-- Lead product: ISS Tracker -->
-            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" data-product-id="isstracker" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/isstracker')}'`}>
+            <BentoItem class="md:col-span-2 md:row-span-2 group cursor-pointer" data-product-id="isstracker" data-analytics-action="select_product" data-analytics-location="home_featured" as="a" href={getRelativeLocaleUrl(lang, '/products/isstracker')}>
                 <div class="absolute inset-0 bg-[#080e18]"></div>
                 <img src="/images/apps/isstracker_banner.webp" alt="ISS Tracker orbital tracking" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
@@ -51,7 +43,7 @@ const t = useTranslations(lang);
             </BentoItem>
 
             <!-- Right, top: Beat Expert -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="drumpads" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/drumpads')}'`}>
+            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="drumpads" data-analytics-action="select_product" data-analytics-location="home_featured" as="a" href={getRelativeLocaleUrl(lang, '/products/drumpads')}>
                 <div class="absolute inset-0 bg-gradient-to-br from-[#13203a] via-[#111426] to-[#090d18]"></div>
                 <div class="absolute -top-12 -right-12 h-52 w-52 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
                 <img src="/images/apps/beat_expert_icon.png" alt="Beat Expert drum pads" class="absolute right-2 top-1 h-[78%] w-auto max-w-[90%] object-contain opacity-85 transition-transform duration-700 group-hover:scale-105" />
@@ -62,12 +54,12 @@ const t = useTranslations(lang);
                         <img src="/images/apps/beat_expert_icon.png" alt="Beat Expert Icon" class="w-12 h-12 rounded-xl shadow-lg" />
                         <h3 class="text-xl font-bold text-white">Beat Expert</h3>
                     </div>
-                    <p class="text-white/85 text-sm">Play drum pads, make your own beats, and record your performances.</p>
+                    <p class="text-white/85 text-sm">{t['home.beat.description']}</p>
                 </div>
             </BentoItem>
 
             <!-- Right, bottom: Charge Expert -->
-            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="phonebattery" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/phonebattery')}'`}>
+            <BentoItem class="group cursor-pointer min-h-[300px]" data-product-id="phonebattery" data-analytics-action="select_product" data-analytics-location="home_featured" as="a" href={getRelativeLocaleUrl(lang, '/products/phonebattery')}>
                 <div class="absolute inset-0 bg-[#0d1916]"></div>
                 <img src="https://cdn.sanity.io/images/9urti28l/production/f6baa6337fdad0626d0efd7cd4d7003c63e798c8-1748x900.png" alt="Charge Expert charging monitor" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-80 transition-transform duration-700 group-hover:scale-105" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
@@ -82,7 +74,7 @@ const t = useTranslations(lang);
             </BentoItem>
 
             <!-- Second row: Math Puzzle -->
-            <BentoItem class="md:col-span-2 group cursor-pointer min-h-[300px]" data-product-id="mathpuzzle" data-analytics-action="select_product" data-analytics-location="home_featured" onclick={`window.location.href='${getRelativeLocaleUrl(lang, '/products/mathpuzzle')}'`}>
+            <BentoItem class="md:col-span-2 group cursor-pointer min-h-[300px]" data-product-id="mathpuzzle" data-analytics-action="select_product" data-analytics-location="home_featured" as="a" href={getRelativeLocaleUrl(lang, '/products/mathpuzzle')}>
                 <div class="absolute inset-0 bg-[#0f1621]"></div>
                 <img src="/images/apps/mathpuzzle_banner.webp" alt="Math Puzzle" loading="lazy" class="absolute inset-0 w-full h-full object-cover opacity-75 transition-transform duration-700 group-hover:scale-105" style="object-position: center 28%;" />
                 <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
@@ -103,9 +95,9 @@ const t = useTranslations(lang);
                     <div class="mb-4 w-11 h-11 flex items-center justify-center rounded-2xl bg-primary/10">
                         <Globe className="w-6 h-6 text-primary" />
                     </div>
-                    <h3 class="text-2xl font-display font-bold mb-2">Explore more apps</h3>
-                    <p class="text-muted-foreground text-sm mb-5">Discover our full collection of useful Android apps and playful experiences.</p>
-                    <a href={getRelativeLocaleUrl(lang, '/products')} class="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline">See all products <span aria-hidden="true">→</span></a>
+                    <h3 class="text-2xl font-display font-bold mb-2">{t['nav.all.products']}</h3>
+                    <p class="text-muted-foreground text-sm mb-5">{t['portfolio.hero.subtitle']}</p>
+                    <a href={getRelativeLocaleUrl(lang, '/products')} class="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline">{t['nav.all.products']} <span aria-hidden="true">→</span></a>
                 </div>
             </BentoItem>
 

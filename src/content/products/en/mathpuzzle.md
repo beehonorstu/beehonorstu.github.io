@@ -33,6 +33,16 @@ Math Puzzle fits neatly into short breaks. Whether you are travelling, taking a 
 
 If you enjoy number games, maths fill-in puzzles, logic puzzles or light brain-teasing challenges, Math Puzzle is a simple, comfortable and replayable choice. Fill in the numbers, connect the equations and complete your own maths puzzle.
 
+## Common questions about Math Puzzle
+
+### What is a cross-number equation puzzle?
+
+The board has intersecting horizontal and vertical arithmetic equations. You choose and place the missing numbers so that every equation is correct at the same time.
+
+### Can I adjust the difficulty?
+
+Yes. You can choose a difficulty level and adjust puzzle settings such as number range, operations and board layout to make the challenge more relaxed or more demanding.
+
 <br>
 
 [Google Play](https://play.google.com/store/apps/details?id=com.behonorstudio.mathpuzzle)

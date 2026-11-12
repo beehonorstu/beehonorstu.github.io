@@ -133,7 +133,12 @@ export default defineConfig({
         const pathname = url.pathname;
         const is404Path = pathname === '/404' || pathname === '/404/' || /\/404\/?$/.test(pathname);
         const isLegacyDefaultLocalePath = pathname === `/${DEFAULT_LOCALE}` || pathname.startsWith(`/${DEFAULT_LOCALE}/`);
-        return !is404Path && !isLegacyDefaultLocalePath && !noIndexUrls.includes(pathname);
+        // The locale routes use a dynamic [lang] segment, which the filesystem
+        // noindex scanner cannot resolve to each generated URL.
+        const noindexRoute = /\/(?:pricing|license|terms)\/?$/.test(pathname);
+        const archivedProduct = /\/products\/logiccraft\/?$/.test(pathname);
+        return !is404Path && !isLegacyDefaultLocalePath &&
+          !noindexRoute && !archivedProduct && !noIndexUrls.includes(pathname);
       }
     }),
     react(),

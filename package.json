@@ -10,6 +10,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build && pagefind --site dist && node scripts/preserve-beat-expert-icon.mjs",
+    "seo:check": "node scripts/seo-audit.mjs",
     "sync:beat-expert-icon": "node scripts/sync-beat-expert-icon.mjs",
     "deploy:firebase:hosting": "firebase deploy --only hosting --project beehonor-studio",
     "build:vercel": "cross-env ADAPTER=vercel astro build && pagefind --site dist",

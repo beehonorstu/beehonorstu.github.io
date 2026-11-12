@@ -16,6 +16,7 @@ interface Props {
     noindex?: boolean;
     nofollow?: boolean;
     availableLangs?: string[];
+    breadcrumbLabel?: string;
     children?: any;
 }
 
@@ -23,6 +24,8 @@ import { siteConfig, ACTION_LINKS } from '~/site.config';
 
 
 import { defaultLang } from '~/i18n/ui';
+import { appCatalog } from '~/lib/appCatalog';
+import { canonicalFor, languageTag, localizedUrl, pathWithoutLocale } from '~/lib/seo';
 import { isRtl, useTranslations } from '~/i18n/utils';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 
@@ -37,14 +40,73 @@ const {
     article = false,
     noindex = false,
     nofollow = false,
-    availableLangs
+    availableLangs,
+    breadcrumbLabel
 } = Astro.props;
 
 const dir = isRtl(lang) ? 'rtl' : 'ltr';
+const siteRoot = new URL('/', Astro.site!).toString();
+const pageUrl = canonicalFor(Astro.url.pathname, Astro.site!);
+const basePath = pathWithoutLocale(Astro.url.pathname, lang);
+const segments = basePath.split('/').filter(Boolean);
+const crumbName = (segment: string, index: number) => {
+    if (index === segments.length - 1) return breadcrumbLabel || title.replace(/\s*\|\s*BeHonor Studio$/, '');
+    if (segment === 'products') return t['nav.products'] || 'Products';
+    return appCatalog[segment]?.name || segment.replace(/[-_]/g, ' ');
+};
+const crumbs = [
+    { '@type': 'ListItem', position: 1, name: t['nav.home'] || 'Home', item: localizedUrl('/', lang, Astro.site!) },
+    ...segments.map((segment, index) => ({
+        '@type': 'ListItem',
+        position: index + 2,
+        name: crumbName(segment, index),
+        item: localizedUrl('/' + segments.slice(0, index + 1).join('/') + '/', lang, Astro.site!)
+    }))
+];
+const socialUrls = [
+    ACTION_LINKS.social?.twitter,
+    ACTION_LINKS.social?.github,
+    ACTION_LINKS.social?.linkedin,
+    ACTION_LINKS.social?.facebook
+].filter(Boolean);
+const siteGraph = [
+    {
+        '@type': 'Organization',
+        '@id': siteRoot + '#organization',
+        name: siteConfig.name,
+        url: siteRoot,
+        description: siteConfig.description,
+        logo: siteConfig.publisherLogoUrl,
+        email: siteConfig.contact.email.support,
+        ...(socialUrls.length ? { sameAs: socialUrls } : {})
+    },
+    {
+        '@type': 'WebSite',
+        '@id': siteRoot + '#website',
+        name: siteConfig.name,
+        url: siteRoot,
+        publisher: { '@id': siteRoot + '#organization' }
+    },
+    {
+        '@type': basePath === '/products/' ? 'CollectionPage' : 'WebPage',
+        '@id': pageUrl + '#webpage',
+        name: title,
+        description,
+        url: pageUrl,
+        inLanguage: languageTag(lang),
+        isPartOf: { '@id': siteRoot + '#website' },
+        ...(image ? { primaryImageOfPage: new URL(image, Astro.site!).toString() } : {})
+    },
+    ...(segments.length ? [{
+        '@type': 'BreadcrumbList',
+        '@id': pageUrl + '#breadcrumb',
+        itemListElement: crumbs
+    }] : [])
+];
 ---
 
 <!doctype html>
-<html lang={lang} dir={dir}>
+<html lang={languageTag(lang)} dir={dir}>
 	<head>
         <SEO 
             title={title} 
@@ -53,32 +115,9 @@ const dir = isRtl(lang) ? 'rtl' : 'ltr';
             article={article} 
             noindex={noindex}
             nofollow={nofollow}
+            availableLangs={availableLangs}
         />
-        <Schema item={{
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": brandName,
-            "url": Astro.site,
-            "logo": siteConfig.logo ? new URL(siteConfig.logo.src, Astro.site).toString() : undefined,
-            "sameAs": [
-                ACTION_LINKS.social?.twitter,
-                ACTION_LINKS.social?.github,
-                ACTION_LINKS.social?.linkedin,
-                ACTION_LINKS.social?.facebook
-            ].filter(Boolean)
-        }} />
-         {Astro.url.pathname !== '/' && (
-            <Schema item={{
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": Astro.url.pathname.split('/').filter(Boolean).map((part, index, arr) => ({
-                    "@type": "ListItem",
-                    "position": index + 1,
-                    "name": part.charAt(0).toUpperCase() + part.slice(1).replace(/-/g, ' '),
-                    "item": new URL(arr.slice(0, index + 1).join('/'), Astro.site).toString()
-                }))
-            }} />
-        )}
+        {!noindex && <Schema item={{ '@context': 'https://schema.org', '@graph': siteGraph }} />}
         <style is:global define:vars={{ primary: siteConfig.primaryColor }}>
           :theme {
             --color-primary: var(--primary);

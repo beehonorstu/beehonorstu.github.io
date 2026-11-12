@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/Layout.astro';
 import ProjectCard from '~/components/blog/ProjectCard.astro';
+import { archivedAppSlugs } from '~/lib/appCatalog';
 import { getCollection } from 'astro:content';
 import { languages, defaultLang } from '~/i18n/ui';
 import { useTranslations } from '~/i18n/utils';
@@ -16,7 +17,7 @@ const { lang = defaultLang } = Astro.params;
 const t = useTranslations(lang);
 
 const projects = (await getCollection('products', ({ id }) => {
-	return id.startsWith(`${lang}/`);
+	return id.startsWith(`${lang}/`) && !archivedAppSlugs.has(id.split('/').at(-1)?.replace(/\.(md|mdx)$/, '') || '');
 })).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
